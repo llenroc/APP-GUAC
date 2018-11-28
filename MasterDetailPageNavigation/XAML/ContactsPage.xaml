@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MasterDetailPageNavigation.ContactsPage">
   <!--Pages can be added as references or inline-->
+    <ContentPage Title="Info" />
     <ContentPage Title="Auto" />
-    <ContentPage Title="Tab 2" />
-    <ContentPage Title="Tab 3" />
+    <ContentPage Title="TeleOp" />
 </TabbedPage>
