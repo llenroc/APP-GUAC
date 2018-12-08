@@ -4,12 +4,12 @@
                   xmlns:local="clr-namespace:MasterDetailPageNavigation"
                   x:Class="MasterDetailPageNavigation.MainPage">
   <MasterDetailPage.Master>
-  	<local:MasterPage x:Name="masterPage" />
+  	<local:MasterPage x:Name="masterPage"/>
   </MasterDetailPage.Master>
 	<MasterDetailPage.Detail>
 		<NavigationPage>
 			<x:Arguments>
-				<local:ContactsPage />
+				<local:AddAMatch BarTextColor="White"/>
 			</x:Arguments>
 		</NavigationPage>
 	</MasterDetailPage.Detail>

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MasterDetailPageNavigation.Auto"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="10, 10">
+                <Label Text=" "/>
+                <Label x:Name="landed" 
+                    Text="Did They Start Landed?" 
+                    FontSize="Medium"
+                    TextColor="Black"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center" />
+                <Button x:Name="mybutton"
+                    Text=" No "
+                    FontSize="Medium"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Clicked="buttonClicked" />
+                <Label Text=" "/>
+                <Label x:Name="claiming"
+                    Text="Did They Claim Their Depot?"
+                    TextColor="Black"
+                    FontSize="Medium"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"  />
+                <Button x:Name="my2ndbutton"
+                     Text=" No "
+                     FontSize="Medium"
+                     VerticalOptions="Center"
+                     HorizontalOptions="Center"
+                     Clicked="numberClicked" />
+                <Label x:Name="spacemydudes" Text=" " />
+                <Label Text="Did They Sample Correctly?"
+                     TextColor="Black"
+                     FontSize="Medium"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center"/>
+                <Button x:Name="thirdButton"
+                     Text=" No "
+                     FontSize="Medium"
+                     VerticalOptions="Center"
+                     HorizontalOptions="Center"
+                     Clicked="thirdClicked"/>
+                <Label x:Name="spacemydude" Text=" " />
+                <Label Text="Did They Park?"
+                     FontSize="Medium"
+                     TextColor="Black"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center"/>
+                <Button x:Name="fouredButton"
+                     Text=" No "
+                     FontSize="Medium"
+                     VerticalOptions="Center"
+                     HorizontalOptions="Center"
+                     Clicked="fouredClicked" />
+
+
+                <Label Text=" "/>
+                <Label Text=" "/>
+                <Label x:Name="title"
+                     Text="Minerals In Lander"
+                     TextColor="Black"
+                     HorizontalOptions="CenterAndExpand"/>
+                <Label x:Name="numberof"
+                     Text="0"
+                     TextColor="Black"
+                     FontSize="Large"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center" />
+                <Stepper Maximum="20"
+                     Increment="1"
+                     HorizontalOptions="Center"
+                     ValueChanged="OnStepperValueChanged" />
+                <Label x:Name="pointsof"
+                     Text="Scored 0 Points"
+                     TextColor="Black"
+                     FontSize="Small"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center" />
+                <Label x:Name="enterdo" Text=" "/>
+                <Label x:Name="title2"
+                     Text="Minerals Scored In Depot"
+                     TextColor="Black"
+                     HorizontalOptions="CenterAndExpand"/>
+                <Label x:Name="numberof2"
+                     Text="0"
+                     FontSize="Large"
+                     TextColor="Black"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center" />
+                <Stepper Maximum="20"
+                     Increment="1"
+                     HorizontalOptions="Center"
+                     ValueChanged="OnStepperValueChanged2" />
+                <Label x:Name="pointsof2"
+                     Text="Scored 0 Points"
+                     TextColor="Black"
+                     FontSize="Small"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center" />
+                <Label Text=" "/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -8,7 +8,7 @@ namespace MasterDetailPageNavigation
 	{
 		public App ()
 		{
-			MainPage = new MasterDetailPageNavigation.MainPage ();
+			MainPage = new MasterDetailPageNavigation.MainPage();
 		}
 
 		protected override void OnStart ()

@@ -13,11 +13,23 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="XAML\ContactsPage.xaml.cs">
-      <DependentUpon>ContactsPage.xaml</DependentUpon>
+    <Compile Update="XAML\AddAMatch.xaml.cs">
+      <DependentUpon>AddAMatch.xaml</DependentUpon>
     </Compile>
-    <Compile Update="XAML\AutoPage.xaml.cs">
-      <DependentUpon>AutoPage.xaml</DependentUpon>
+    <Compile Update="XAML\Info.xaml.cs">
+      <DependentUpon>Info.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="XAML\EditAMatch.xaml.cs">
+      <DependentUpon>EditAMatch.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="XAML\Auto.xaml.cs">
+      <DependentUpon>Auto.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="XAML\TeleOp.xaml.cs">
+      <DependentUpon>TeleOp.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="XAML\Results.xaml.cs">
+      <DependentUpon>Results.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
@@ -28,16 +40,22 @@
     <EmbeddedResource Update="XAML\MasterPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="XAML\AutoPage.xaml">
+    <EmbeddedResource Update="XAML\Info.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="XAML\ReminderPage.xaml">
+    <EmbeddedResource Update="XAML\EditAMatch.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="XAML\ContactsPage.xaml">
+    <EmbeddedResource Update="XAML\AddAMatch.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="XAML\TodoListPage.xaml">
+    <EmbeddedResource Update="XAML\Auto.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XAML\TeleOp.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XAML\Results.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

@@ -4,14 +4,15 @@
              xmlns:local="clr-namespace:MasterDetailPageNavigation"
              x:Class="MasterDetailPageNavigation.MasterPage"
 			 Title="masterPage"
-             Padding="0,40,0,0">
+             BackgroundColor="White"
+             Padding="0,10,0,0">
     <StackLayout>
         <ListView x:Name="listView" x:FieldModifier="public">
            <ListView.ItemsSource>
                 <x:Array Type="{x:Type local:MasterPageItem}">
-                    <local:MasterPageItem Title="Add A Match" IconSource="contacts.png" TargetType="{x:Type local:ContactsPage}" />
-                    <local:MasterPageItem Title="Edit A Match" IconSource="todo.png" TargetType="{x:Type local:TodoListPage}" />
-                    <local:MasterPageItem Title="Current Standings" IconSource="reminders.png" TargetType="{x:Type local:ReminderPage}" />
+                    <local:MasterPageItem Title="Add A Match" IconSource="contacts.png" TargetType="{x:Type local:AddAMatch}" />
+                    <local:MasterPageItem Title="Edit A Match" IconSource="todo.png" TargetType="{x:Type local:EditAMatch}" />
+                    <local:MasterPageItem Title="Current Standings"  IconSource="reminders.png" TargetType="{x:Type local:Results}" />
                 </x:Array>
             </ListView.ItemsSource>
             <ListView.ItemTemplate>
