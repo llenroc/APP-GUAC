@@ -6,102 +6,121 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Margin="10, 10">
-                <Label Text=" "/>
-                <Label x:Name="landed" 
-                    Text="Did They Start Landed?" 
+                <Label/>
+                
+                <Label Text="Did They Start Latched?" 
                     FontSize="Medium"
                     TextColor="Black"
                     VerticalOptions="Center" 
                     HorizontalOptions="Center" />
-                <Button x:Name="mybutton"
+                
+                <Button x:Name="LatchedToggle"
                     Text=" No "
                     FontSize="Medium"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
-                    Clicked="buttonClicked" />
-                <Label Text=" "/>
-                <Label x:Name="claiming"
-                    Text="Did They Claim Their Depot?"
+                    Clicked="LatchedClicked" />
+                
+                <Label/>
+                
+                <Label Text="Did They Claim Their Depot?"
                     TextColor="Black"
                     FontSize="Medium"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"  />
-                <Button x:Name="my2ndbutton"
+                
+                <Button x:Name="ClaimedToggle"
                      Text=" No "
                      FontSize="Medium"
                      VerticalOptions="Center"
                      HorizontalOptions="Center"
-                     Clicked="numberClicked" />
-                <Label x:Name="spacemydudes" Text=" " />
+                     Clicked="ClaimedClicked" />
+                
+                <Label/>
+                
                 <Label Text="Did They Sample Correctly?"
                      TextColor="Black"
                      FontSize="Medium"
                      HorizontalOptions="Center"
                      VerticalOptions="Center"/>
-                <Button x:Name="thirdButton"
+                
+                <Button x:Name="SampleToggle"
                      Text=" No "
                      FontSize="Medium"
                      VerticalOptions="Center"
                      HorizontalOptions="Center"
-                     Clicked="thirdClicked"/>
-                <Label x:Name="spacemydude" Text=" " />
+                     Clicked="SampleClicked"/>
+                
+                <Label/>
+                
                 <Label Text="Did They Park?"
                      FontSize="Medium"
                      TextColor="Black"
                      HorizontalOptions="Center"
                      VerticalOptions="Center"/>
-                <Button x:Name="fouredButton"
+                
+                <Button x:Name="ParkToggle"
                      Text=" No "
                      FontSize="Medium"
                      VerticalOptions="Center"
                      HorizontalOptions="Center"
-                     Clicked="fouredClicked" />
+                     Clicked="ParkAutoClicked" />
 
 
-                <Label Text=" "/>
-                <Label Text=" "/>
-                <Label x:Name="title"
-                     Text="Minerals In Lander"
+                <Label/>
+                
+                <Label/>
+                
+                <Label Text="Minerals Scored In Lander"
                      TextColor="Black"
                      HorizontalOptions="CenterAndExpand"/>
-                <Label x:Name="numberof"
+                
+                <Label x:Name="LanderMinerals"
                      Text="0"
                      TextColor="Black"
                      FontSize="Large"
                      HorizontalOptions="Center"
                      VerticalOptions="Center" />
+                
                 <Stepper Maximum="20"
                      Increment="1"
                      HorizontalOptions="Center"
                      ValueChanged="OnStepperValueChanged" />
-                <Label x:Name="pointsof"
+                
+                <Label x:Name="ScoredLander"
                      Text="Scored 0 Points"
                      TextColor="Black"
                      FontSize="Small"
                      HorizontalOptions="Center"
                      VerticalOptions="Center" />
-                <Label x:Name="enterdo" Text=" "/>
-                <Label x:Name="title2"
-                     Text="Minerals Scored In Depot"
+                
+                <Label/>
+                
+                <Label Text="Minerals Scored In Depot"
                      TextColor="Black"
                      HorizontalOptions="CenterAndExpand"/>
-                <Label x:Name="numberof2"
+                
+                <Label x:Name="DepotMinerals"
                      Text="0"
                      FontSize="Large"
                      TextColor="Black"
                      HorizontalOptions="Center"
                      VerticalOptions="Center" />
+                
                 <Stepper Maximum="20"
                      Increment="1"
                      HorizontalOptions="Center"
                      ValueChanged="OnStepperValueChanged2" />
-                <Label x:Name="pointsof2"
+                
+                <Label x:Name="ScoredDepot"
                      Text="Scored 0 Points"
                      TextColor="Black"
                      FontSize="Small"
                      HorizontalOptions="Center"
                      VerticalOptions="Center" />
-                <Label Text=" "/>
+                
+                <Label/>
+                
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

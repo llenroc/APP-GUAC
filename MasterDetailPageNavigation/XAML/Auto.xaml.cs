@@ -17,56 +17,56 @@ namespace MasterDetailPageNavigation
 			InitializeComponent ();
 		}
 
-        private void buttonClicked(object sender, EventArgs e)
+        private void LatchedClicked(object sender, EventArgs e)
         {
 
-            if (mybutton.Text == "Yes!")
-                mybutton.Text = " No ";
-            else mybutton.Text = "Yes!";
+            if (LatchedToggle.Text == "Yes!")
+                LatchedToggle.Text = " No ";
+            else LatchedToggle.Text = "Yes!";
 
         }
 
-        private void numberClicked(object sender, EventArgs e)
+        private void ClaimedClicked(object sender, EventArgs e)
         {
 
-            if (my2ndbutton.Text == "Yes!")
-                my2ndbutton.Text = " No ";
-            else my2ndbutton.Text = "Yes!";
+            if (ClaimedToggle.Text == "Yes!")
+                ClaimedToggle.Text = " No ";
+            else ClaimedToggle.Text = "Yes!";
             
         }
 
-        private void thirdClicked(object sender, EventArgs e)
+        private void SampleClicked(object sender, EventArgs e)
         {
 
-            if (thirdButton.Text == "Yes!")
-                thirdButton.Text = " No ";
-            else thirdButton.Text = "Yes!";
+            if (SampleToggle.Text == "Yes!")
+                SampleToggle.Text = " No ";
+            else SampleToggle.Text = "Yes!";
 
         }
 
-        private void fouredClicked(object sender, EventArgs e)
+        private void ParkAutoClicked(object sender, EventArgs e)
         {
 
-            if (fouredButton.Text == "Yes!")
-                fouredButton.Text = " No ";
-            else fouredButton.Text = "Yes!";
+            if (ParkToggle.Text == "Yes!")
+                ParkToggle.Text = " No ";
+            else ParkToggle.Text = "Yes!";
 
         }
 
         void OnStepperValueChanged(object sender, ValueChangedEventArgs e)
         {
             double value = e.NewValue;
-            numberof.Text = string.Format("{0}", value);
+            LanderMinerals.Text = string.Format("{0}", value);
             value = value * 5;
-            pointsof.Text = string.Format("Scored {0} Points", value);
+            ScoredLander.Text = string.Format("Scored {0} Points", value);
         }
 
         void OnStepperValueChanged2(object sender, ValueChangedEventArgs c)
         {
             double value2 = c.NewValue;
-            numberof2.Text = string.Format("{0}", value2);
+            DepotMinerals.Text = string.Format("{0}", value2);
             value2 = value2 * 2;
-            pointsof2.Text = string.Format("Scored {0} Points", value2);
+            ScoredDepot.Text = string.Format("Scored {0} Points", value2);
         }
     }
 }
