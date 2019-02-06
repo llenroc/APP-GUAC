@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RoboScout.Auto"
+             BackgroundColor="{ DynamicResource MainWrapperBackgroundColor }">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="10, 10">
+                <Label/>
+                
+                <Label Text="Did They Start Latched?" 
+                    FontSize="Medium"
+                    TextColor="Black"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center" />
+                
+                <Button x:Name="LatchedToggle"
+                    Text=" No "
+                    FontSize="Medium"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Clicked="LatchedClicked" />
+                
+                <Label/>
+                
+                <Label Text="Did They Claim Their Depot?"
+                    TextColor="Black"
+                    FontSize="Medium"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"  />
+                
+                <Button x:Name="ClaimedToggle"
+                     Text=" No "
+                     FontSize="Medium"
+                     VerticalOptions="Center"
+                     HorizontalOptions="Center"
+                     Clicked="ClaimedClicked" />
+                
+                <Label/>
+                
+                <Label Text="Did They Sample Correctly?"
+                     TextColor="Black"
+                     FontSize="Medium"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center"/>
+                
+                <Button x:Name="SampleToggle"
+                     Text=" No "
+                     FontSize="Medium"
+                     VerticalOptions="Center"
+                     HorizontalOptions="Center"
+                     Clicked="SampleClicked"/>
+                
+                <Label/>
+                
+                <Label Text="Did They Park?"
+                     FontSize="Medium"
+                     TextColor="Black"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center"/>
+                
+                <Button x:Name="ParkToggle"
+                     Text=" No "
+                     FontSize="Medium"
+                     VerticalOptions="Center"
+                     HorizontalOptions="Center"
+                     Clicked="ParkAutoClicked" />
+
+
+                <Label/>
+                
+                <Label/>
+                
+                <Label Text="Minerals Scored In Lander"
+                     TextColor="Black"
+                     HorizontalOptions="CenterAndExpand"/>
+                
+                <Label x:Name="LanderMinerals"
+                     Text="0"
+                     TextColor="Black"
+                     FontSize="Large"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center" />
+                
+                <Stepper Maximum="20"
+                     Increment="1"
+                     HorizontalOptions="Center"
+                     ValueChanged="OnStepperValueChanged" />
+                
+                <Label x:Name="ScoredLander"
+                     Text="Scored 0 Points"
+                     TextColor="Black"
+                     FontSize="Small"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center" />
+                
+                <Label/>
+                
+                <Label Text="Minerals Scored In Depot"
+                     TextColor="Black"
+                     HorizontalOptions="CenterAndExpand"/>
+                
+                <Label x:Name="DepotMinerals"
+                     Text="0"
+                     FontSize="Large"
+                     TextColor="Black"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center" />
+                
+                <Stepper Maximum="20"
+                     Increment="1"
+                     HorizontalOptions="Center"
+                     ValueChanged="OnStepperValueChanged2" />
+                
+                <Label x:Name="ScoredDepot"
+                     Text="Scored 0 Points"
+                     TextColor="Black"
+                     FontSize="Small"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center" />
+                
+                <Label/>
+                
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

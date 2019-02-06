@@ -5,7 +5,6 @@
     <AssemblyName>RoboScout</AssemblyName>
     <RootNamespace>RoboScout</RootNamespace>
     <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
-    <ReleaseVersion>2.0</ReleaseVersion>
     <Configurations>Debug;Release;Gorilla</Configurations>
   </PropertyGroup>
   <ItemGroup></ItemGroup>
@@ -388,5 +387,8 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>DataResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Match\" />
   </ItemGroup>
 </Project>

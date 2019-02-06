@@ -43,8 +43,12 @@ namespace RoboScout
 
 				await Task.Delay (500)
 					.ContinueWith(t => NavigationService.BeginInvokeOnMainThreadAsync(InitializeMasterDetail));
-			}
-		}
+            }
+            else
+            {
+                InitializeMasterDetail();
+            }
+        }
 
 		protected override void OnDisappearing()
 		{

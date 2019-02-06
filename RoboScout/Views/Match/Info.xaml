@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RoboScout.Info"
+             BackgroundColor="{ DynamicResource MainWrapperBackgroundColor }">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="10, 10">
+                <Label Text=" "/>
+                <Label Text="What Is The Team Number?"
+                       TextColor="Black"
+                       FontSize="Large"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+                <Entry Placeholder="Input Team Number"
+                       x:Name="tnum"
+                       HorizontalTextAlignment="Center"
+                       PlaceholderColor="LightGray"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"
+                       Keyboard="Numeric"/>
+                <Label Text=" "/>
+                <Label Text="What Is the Team Name?"
+                       TextColor="Black"
+                       FontSize="Large"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+                <Entry x:Name="TeamName"
+                       Placeholder="Input Team Name (Optional)"
+                       PlaceholderColor="LightGray"
+                       HorizontalTextAlignment="Center"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
