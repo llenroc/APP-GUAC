@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="RoboScout.WalkthroughFlatPage" xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared" xmlns:local="clr-namespace:RoboScout;assembly=RoboScout">
+
+	<local:WalkthroughFlatStepItemTemplate
+		BackgroundColor="#e51e61"
+		StepBackgroundImage=""
+		Header="{ artina:Translate WalkthroughHeaderWelcome }"
+		Text="{ artina:Translate WalkthroughTextWelcome }"
+		IconText="{ x:Static local:GrialShapesFont.Public }"
+		IconColor="#FFF"
+		ButtonText="{ artina:Translate StringNext }"
+		ButtonBackgroundColor="#B31250" />
+
+	<local:WalkthroughFlatStepItemTemplate
+		BackgroundColor="#7C4ECD"
+		Header="{ artina:Translate WalkthroughHeaderSaveTime }"
+		Text="{ artina:Translate WalkthroughTextSaveTime }"
+		IconText="{ x:Static local:GrialShapesFont.FlashOn }"
+		IconColor="#FFF"
+		ButtonText="{ artina:Translate StringNext }"
+		ButtonBackgroundColor="#6A40B9" />
+
+	<local:WalkthroughFlatStepItemTemplate
+		BackgroundColor="#5F7DD4"
+		Header="{ artina:Translate WalkthroughHeaderLearn }"
+		Text="{ artina:Translate WalkthroughTextLearn }"
+		IconText="{ x:Static local:GrialShapesFont.School }"
+		IconColor="#FFF"
+		ButtonText="{ artina:Translate StringFinish }"
+		ButtonBackgroundColor="#525ABB" />
+
+</CarouselPage>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="RoboScout.ArticlesListVariantPage" xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared" xmlns:local="clr-namespace:RoboScout;assembly=RoboScout"
+	Title="{ artina:Translate PageTitleArticlesListVariant }"
+	BackgroundColor="{ DynamicResource MainWrapperBackgroundColor }">
+
+	<!-- MAIN WRAPPER -->
+		
+	<!-- 
+		The MOST PERFORMANT list options for this layout
+		Items WON'T change their height
+	-->
+
+	<ListView
+		CachingStrategy="RecycleElement"
+		SeparatorVisibility="None"
+		ItemsSource="{Binding PostsList}"
+		ItemTapped="OnItemTapped"
+		RowHeight="340"
+		SeparatorColor="{DynamicResource MainMenuSeparatorColor}"
+		HasUnevenRows="true">
+
+		<ListView.ItemTemplate>
+			<DataTemplate>
+				<ViewCell>
+					<local:ArticleVariantItemTemplate
+						Padding="{StaticResource MainWrapperPadding}" />
+				</ViewCell>
+			</DataTemplate>
+		</ListView.ItemTemplate>
+	</ListView>
+
+	<!-- 
+		Use this when you need the card to grow
+		its height according to contained text inside.
+		This cannot be cached, otherwise card will
+		at some point look with wrong heights.
+	-->
+
+	<!--	
+	<ListView 
+		x:Name="ArticlesListView"
+		SeparatorVisibility="Default"
+		SeparatorColor="#DFDFDF"
+		ItemsSource="{Binding PostsList}"
+		ItemTapped="OnItemTapped"
+		HasUnevenRows="true"
+		>
+
+		<ListView.ItemTemplate>
+			<DataTemplate>
+				<ViewCell>
+					<local:ArticleVariantItemTemplate/>
+				</ViewCell>
+			</DataTemplate>
+		</ListView.ItemTemplate>
+	</ListView>
+	-->
+</ContentPage>

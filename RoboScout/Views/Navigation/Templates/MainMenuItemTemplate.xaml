@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared" xmlns:local="clr-namespace:RoboScout;assembly=RoboScout" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:converter="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared.Base"
+	x:Class="RoboScout.MainMenuItemTemplate">
+	
+	<ContentPage.Resources>
+		<ResourceDictionary>
+			<converter:NegateBooleanConverter
+				x:Key="InvertBoolConverter" />
+		</ResourceDictionary>
+	</ContentPage.Resources>
+	
+	<AbsoluteLayout
+		Padding="24,0"
+		VerticalOptions="CenterAndExpand"
+		HorizontalOptions="FillAndExpand">
+
+		<!-- ICON -->
+		<Label
+			HorizontalOptions="Start"
+			Text="{ Binding Icon }"
+			Style="{ StaticResource MainMenuIconStyle }"
+			VerticalTextAlignment="Center"
+			AbsoluteLayout.LayoutBounds="0, 0.5, 20, 1"
+			AbsoluteLayout.LayoutFlags="XProportional, YProportional, HeightProportional" />
+
+		<!-- FULL LABEL -->
+		<Label
+			AbsoluteLayout.LayoutBounds="24, 0, 1, 1"
+			AbsoluteLayout.LayoutFlags="WidthProportional, HeightProportional"
+			Text="{ Binding Name }"
+			Style="{ StaticResource MainMenuLabelStyle }"
+			VerticalTextAlignment="Center"
+			IsVisible="{ Binding IsNew, Converter={ StaticResource InvertBoolConverter } }"
+			Margin="0,0,0,0" />
+
+		<!-- COMPACT LABEL -->
+		<Label
+			IsVisible="{ Binding IsNew }"
+			Text="{ Binding Name }"
+			Style="{ StaticResource MainMenuLabelStyle }"
+			VerticalTextAlignment="Center"
+			AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+			AbsoluteLayout.LayoutFlags="WidthProportional, HeightProportional"
+			Margin="24,0" />
+		
+		<!-- NEW BADGE -->
+		<local:RoundedLabel
+			AbsoluteLayout.LayoutBounds="1,0.5,AutoSize,22"
+			AbsoluteLayout.LayoutFlags="XProportional, YProportional"
+			IsVisible="{ Binding IsNew }"
+			Style="{ StaticResource IsNewRoundedLabelStyle }"
+			HorizontalOptions="End"
+			RoundedLabelLineBreakMode="NoWrap"
+			RoundedLabelText="{ artina:Translate StringNew }" />
+	</AbsoluteLayout>
+
+</ContentView>

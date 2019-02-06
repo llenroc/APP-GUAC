@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="RoboScout.IconsPage" xmlns:local="clr-namespace:RoboScout;assembly=RoboScout" xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared"
+	BackgroundColor="{ DynamicResource BasePageColor }"
+	Title="{ artina:Translate PageTitleThemeFontIcons }">
+	
+	<ContentPage.Content>
+		<Grid
+			Margin="0,20,0,0"
+			RowSpacing="0">	
+			
+			<Grid.RowDefinitions>
+				<RowDefinition
+					Height="30" />
+				<RowDefinition
+					Height="Auto" />
+				<RowDefinition
+					Height="*" />
+			</Grid.RowDefinitions>
+			
+			<Label
+				Grid.Row="0"
+				Margin="20,0,20,0"
+				Text="{ Binding IconsFontFamily }"
+				FontAttributes="Bold" />
+
+			<Grid
+				Grid.Row="1"
+				Margin="20,0,20,0"
+				ColumnSpacing="10">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition
+						Width="Auto" />
+					<ColumnDefinition
+						Width="*" />
+				</Grid.ColumnDefinitions>
+
+				<Label
+					Grid.Column="0"
+					Text="{ Binding IconsCount }"
+					HorizontalTextAlignment="Start" />
+
+				<Label
+					Grid.Column="1"
+					Text="{ artina:Translate StringIcons }"
+					HorizontalTextAlignment="Start" />
+			</Grid>
+
+			<BoxView
+				Grid.Row="1"
+				VerticalOptions="End"
+				Style="{ StaticResource ThemeShowCaseHorizontalRuleStyle }" />
+			
+			<ListView
+				Grid.Row="2"
+				CachingStrategy="RecycleElement"
+				ItemsSource="{ Binding IconsList }">
+				
+				<ListView.ItemTemplate>
+					<DataTemplate>
+						<ViewCell>
+							<Grid
+								Margin="24,0">
+								<Grid.ColumnDefinitions>
+									<ColumnDefinition
+										Width="24" />
+									<ColumnDefinition
+										Width="*" />
+								</Grid.ColumnDefinitions>
+
+								<Label
+									Grid.Column="0"
+									Text="{ Binding Icon }"
+									VerticalOptions="CenterAndExpand"
+									HorizontalTextAlignment="Start"
+									Style="{ StaticResource FontIcon }"
+									TextColor="{ DynamicResource AccentColor }"
+									FontSize="24" />
+							
+								<Label
+									Grid.Column="1"
+									x:Name="FontIconLabel"
+									Text="{ Binding Name }"
+									VerticalOptions="CenterAndExpand"
+									HorizontalTextAlignment="Start" />
+							</Grid>
+						</ViewCell>
+					</DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>
+		</Grid>
+	</ContentPage.Content>
+	
+</ContentPage>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared"
+	x:Class="RoboScout.GenericAboutPage"
+	Title="{ artina:Translate PageTitleAbout }"
+	BackgroundColor="{ DynamicResource BasePageColor }">
+	
+	<ContentPage.Resources>
+		<!-- PAGE RESOURCES, CAN BE MOVED TO APP.XAML-->
+		<ResourceDictionary>
+			<Style
+				x:Key="AboutText"
+				TargetType="Label">
+				<Setter
+					Property="TextColor"
+					Value="{ DynamicResource BaseTextColor }" />
+				<Setter
+					Property="FontSize"
+					Value="16" />
+			</Style> 
+
+			<Style
+				x:Key="AboutTitle"
+				TargetType="Label"
+				BaseResourceKey="GenericAboutText">
+				<Setter
+					Property="FontSize"
+					Value="18" />
+				<Setter
+					Property="TextColor"
+					Value="{ DynamicResource BaseTextColor }" />
+			</Style> 
+		</ResourceDictionary>
+	</ContentPage.Resources>
+	<ContentPage.Content>
+
+		<ScrollView
+			Padding="40,50,40,0">
+			<Grid
+				RowSpacing="60">
+				<Grid.RowDefinitions>
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="Auto" />
+				</Grid.RowDefinitions>
+
+				<!--BACKGROUND-->
+				<BoxView
+					Grid.Row="0"
+					Margin="-40,-50,-40,-40"
+					BackgroundColor="{ DynamicResource AboutHeaderBackgroundColor }" />
+
+				<!--UXDIVERS-->
+				<Image
+					Grid.Row="0"
+					Source="uxdivers_logo_about.png"
+					WidthRequest="230"
+					HorizontalOptions="Center"
+					TranslationX="-20" />
+
+				<!--TEXT-->
+				<Label
+					Grid.Row="1"
+					Style="{ StaticResource AboutText }"
+					Text="{ artina:Translate LabelAboutUsText }" />
+
+
+				<!--BACKGROUND-->
+				<BoxView
+					Grid.Row="2"
+					Margin="0,-20"
+					BackgroundColor="{ DynamicResource AboutHeaderBackgroundColor }" />
+
+				<!--VS PARTNER LOGO-->
+				<Image
+					Grid.Row="2"
+					Source="vs_partner_logo.png"
+					WidthRequest="130"
+					HorizontalOptions="Center"
+					TranslationX="-10" />
+
+				
+				<StackLayout
+					Spacing="20"
+					Grid.Row="3">
+
+					<!--TITLE-->
+					<Label
+						Style="{ StaticResource AboutTitle }"
+						Text="{ artina:Translate LabelVisualStudioPartner }"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center" />
+
+					<!--TEXT-->
+					<Label
+						Style="{ StaticResource AboutText }"
+						Text="{ artina:Translate LabelVisualStudioPartnerLongText }" />
+				</StackLayout>
+
+
+				<!--BACKGROUND-->
+				<BoxView
+					Grid.Row="4"
+					Margin="0,-20"
+					BackgroundColor="{ DynamicResource AboutHeaderBackgroundColor }" />
+
+				<!--PRODUCTS-->
+				<Image
+					Grid.Row="4"
+					Source="products_logos.png"
+					WidthRequest="240"
+					HorizontalOptions="Center" />
+				
+				<StackLayout
+					Spacing="20"
+					Grid.Row="5">
+
+					<!--TITLE-->
+					<Label
+						Style="{ StaticResource AboutTitle }"
+						Text="{ artina:Translate LabelOurProducts }"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center" />
+
+					<!--TEXT-->
+					<Label
+						Style="{ StaticResource AboutText }"
+						Text="{ artina:Translate LabelOurProductsLongText } " />
+					<!--TITLE-->
+					<Label
+						Style="{ StaticResource AboutTitle }"
+						FontSize="10"
+						FontAttributes="Bold"
+						Text="{ artina:Translate LabelCredits }"
+						HorizontalTextAlignment="Center" />
+				
+					<!--TEXT-->
+					<Label
+						Style="{ StaticResource AboutText }"
+						FontSize="10"
+						FontAttributes="Italic"
+						Text="Juan Pablo Brocca - Leonardo Rodriguez - Mauricio Carreño (Melo) - Pablo Germano - Tawfik Nassar -
+Agustín Rodriguez - Martina Brocca - Juan Miguel Rodriguez - Anaclara Luján - Gimena Patetta - Maggie Iturria - La Beba - El Julio - Brocca Jr. (Release Candidate)
+" />
+
+					<!--TITLE-->
+					<Label
+						Style="{ StaticResource AboutTitle }"
+						FontSize="10"
+						FontAttributes="Bold"
+						Text="{ artina:Translate LabelSpecialThanks }"
+						HorizontalTextAlignment="Center" />
+				
+					<!--TEXT-->
+					<Label
+						Style="{StaticResource AboutText}"
+						FontSize="10"
+						FontAttributes="Italic"
+						Text="Petri Petkhonen - Paul Jhonson - Angelo Belchior - Jason Smith (The real Jason Smith) - Rob Ross - Nat Friedman - Houssem Dellai - All Xamarin community! 
+" />
+
+			
+				</StackLayout>
+			</Grid>	
+
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>

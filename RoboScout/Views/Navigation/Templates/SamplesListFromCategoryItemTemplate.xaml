@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="RoboScout.SamplesListFromCategoryItemTemplate" xmlns:local="clr-namespace:RoboScout;assembly=RoboScout" xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared" xmlns:converter="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared.Base">
+
+	<ContentView.Resources>
+		<ResourceDictionary>
+			<converter:NegateBooleanConverter
+				x:Key="InvertBoolConverter" />
+		</ResourceDictionary>
+	</ContentView.Resources>
+
+	<ContentView.Content>
+		<Grid
+			Style="{ StaticResource SamplesListFromCategoryItemTemplateGridStyle }"
+			ColumnSpacing="10">
+
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition
+					Width="30" />
+				<ColumnDefinition
+					Width="*" />
+				<ColumnDefinition
+					Width="Auto" />
+				<ColumnDefinition
+					Width="Auto" />
+			</Grid.ColumnDefinitions>
+			
+			<!-- ICON -->
+			<Label
+				Grid.Row="0"
+				Grid.Column="0"
+				Text="{ Binding Icon }"
+				Style="{ DynamicResource SamplesListFromCategoryItemTemplateIconStyle }" />
+
+			<!-- FULL LABEL -->
+			<Label
+				Grid.Column="1"
+				Grid.ColumnSpan="2"
+				Text="{ Binding Name }"
+				Style="{ StaticResource SamplesListFromCategoryItemTemplateLabelStyle }"
+				IsVisible="{ Binding IsNew, Converter={ StaticResource InvertBoolConverter } }" />
+
+			<!-- COMPACT LABEL -->
+			<Label
+				Grid.Column="1"
+				IsVisible="{ Binding IsNew }"
+				Text="{ Binding Name }"
+				Style="{ StaticResource SamplesListFromCategoryItemTemplateLabelStyle }" />
+			
+			<!-- NEW BADGE -->
+			<local:RoundedLabel
+				Grid.Column="2"
+				IsVisible="{ Binding IsNew }"
+				RoundedLabelText="{ artina:Translate StringNew }"
+				Style="{ StaticResource SamplesListFromCategoryItemTemplateBadgeStyle }" />
+			
+			<!-- CHEVRON -->
+			<Label
+				Grid.Column="3"
+				Style="{ DynamicResource SamplesListFromCategoryItemTemplateChevronStyle }" />
+
+		</Grid>
+	</ContentView.Content>
+	
+</ContentView>

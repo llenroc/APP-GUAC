@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared" xmlns:local="clr-namespace:RoboScout;assembly=RoboScout"
+	x:Class="RoboScout.ChatTimelinePage"
+	Title="{ artina:Translate PageTitleChatTimeLine }"
+	BackgroundColor="{ DynamicResource BasePageColor }"
+	Padding="{ StaticResource MainWrapperPadding }">
+	
+	<ContentPage.Resources>
+		<ResourceDictionary>
+			<artina:BoolMemberTemplateSelector
+				x:Key="Selector"
+				MemberName="IsInbound">
+				
+				<artina:BoolMemberTemplateSelector.TrueDataTemplate>
+					<DataTemplate>
+						<ViewCell>
+							<local:ChatTimelineOutgoingItemTemplate />
+						</ViewCell>
+					</DataTemplate>
+				</artina:BoolMemberTemplateSelector.TrueDataTemplate>
+				
+				<artina:BoolMemberTemplateSelector.FalseDataTemplate>
+					<DataTemplate>
+						<ViewCell>
+							<local:ChatTimelineIncomingItemTemplate />
+						</ViewCell>
+					</DataTemplate>
+				</artina:BoolMemberTemplateSelector.FalseDataTemplate>
+				
+			</artina:BoolMemberTemplateSelector>
+			
+		</ResourceDictionary>
+	</ContentPage.Resources>
+	
+	<ContentPage.Content>
+		
+		<ListView
+			CachingStrategy="RecycleElement"
+			ItemsSource="{ Binding Messages }"
+			SeparatorVisibility="None"
+			HasUnevenRows="true"
+			ItemTemplate="{ StaticResource Selector }">
+		</ListView>
+		
+	</ContentPage.Content>
+	
+</ContentPage>

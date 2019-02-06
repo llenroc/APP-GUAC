@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="RoboScout.MainMenuPage"
+	Style="{ StaticResource MainMenuStyle }" xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared" xmlns:local="clr-namespace:RoboScout;assembly=RoboScout"
+	Icon="{ StaticResource HamburguerIcon }"
+	Title="{ artina:Translate PageTitleMainMenu }">
+
+	<Grid
+		RowSpacing="0"
+		VerticalOptions="FillAndExpand"
+		Padding="0,20,0,0"
+		Margin="0,0,0,10">
+
+		<Grid.RowDefinitions>
+			<RowDefinition
+				Height="100" />
+			<RowDefinition
+				Height="*" />
+		</Grid.RowDefinitions>
+
+		
+		<Grid
+			Grid.Row="0"
+			VerticalOptions="Start"
+			HorizontalOptions="Start"
+			RowSpacing="0"
+			ColumnSpacing="-26">
+
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition
+					Width="Auto" />
+				<ColumnDefinition
+					Width="*" />
+			</Grid.ColumnDefinitions>
+			
+			<!-- LOGO -->
+			<local:BrandBlock
+				Grid.Row="0"
+				Grid.Column="0"
+				HorizontalOptions="Start" />
+			
+			<!-- SCREENS COUNTER -->
+			<local:Badge
+				Grid.Column="1"
+				BadgeText="{ Binding AllSamples.Count }"
+				BadgeTextColor="#FFF"
+				BadgeBackgroundColor="#F00"
+				VerticalOptions="Start" />
+			
+		</Grid>
+
+		<ListView
+			Grid.Row="1"
+			x:Name="sampleListView"
+			ItemSelected="OnItemSelected"
+			ItemsSource="{ Binding SamplesGroupedByCategory }"
+			IsGroupingEnabled="true"
+			GroupDisplayBinding="{ Binding Name }"
+			SeparatorVisibility="None"
+			VerticalOptions="FillAndExpand"
+			Style="{ StaticResource MainMenuListViewStyle }"
+			CachingStrategy="RecycleElement">
+				<ListView.GroupHeaderTemplate> 
+					<DataTemplate> 
+						<ViewCell> 
+							<local:MainMenuGroupHeaderTemplate />
+						</ViewCell> 
+					</DataTemplate> 
+				</ListView.GroupHeaderTemplate> 
+
+				<ListView.ItemTemplate>
+					<DataTemplate>
+						<ViewCell>
+							<local:MainMenuItemTemplate />
+						</ViewCell>
+					</DataTemplate>
+				</ListView.ItemTemplate>
+		</ListView>
+	</Grid>
+</ContentPage>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared" xmlns:local="clr-namespace:RoboScout;assembly=RoboScout" xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+	x:Class="RoboScout.ArticleItemTemplate">
+
+	<Grid
+		BackgroundColor="Black">
+        
+		<ffimageloading:CachedImage
+			FadeAnimationEnabled="true"
+			Source="{ Binding BackgroundImage }"
+			Aspect="AspectFill" />
+			
+		<Grid
+			ColumnSpacing="0"
+			RowSpacing="6"
+			Padding="20">
+
+			<Grid.RowDefinitions>
+				<RowDefinition
+					Height="*" />
+				<RowDefinition
+					Height="Auto" />
+				<RowDefinition
+					Height="10" />
+			</Grid.RowDefinitions>
+
+			<Label
+				FontSize="30"
+				FontAttributes="Bold"
+				Text="{ Binding Title }"
+				LineBreakMode="WordWrap"
+				TextColor="{ DynamicResource OverImageTextColor }"
+				VerticalOptions="End" />
+            
+            <!--HEADER INFO-->
+            <Grid
+				Grid.Row="1"
+				VerticalOptions="End"
+				ColumnSpacing="6">
+                
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition
+						Width="*" />
+                    <ColumnDefinition
+						Width="Auto" />
+                    <ColumnDefinition
+						Width="Auto" />
+                    <ColumnDefinition
+						Width="Auto" />
+                    <ColumnDefinition
+						Width="Auto" />
+                    <ColumnDefinition
+						Width="Auto" />
+                </Grid.ColumnDefinitions>
+                
+                <Label
+					Grid.Column="0"
+					Text="{ Binding Section }"
+					TextColor="{ DynamicResource OverImageTextColor }"
+					VerticalOptions="End" />
+                    
+                <Label
+					Grid.Column="1"
+					Text="{ Binding When }"
+					TextColor="{ DynamicResource OverImageTextColor }" />
+                    
+                <Label
+					Grid.Column="2"
+					Text="{ x:Static local:GrialShapesFont.Group } "
+					FontSize=" { StaticResource BaseFontSize }"
+					TextColor="{ DynamicResource AccentColor }"
+					FontFamily="{ StaticResource IconsFontFamily }"
+					TranslationY="3" />
+            
+                <Label
+					Grid.Column="3"
+					Text="77"
+					FontSize="{ StaticResource BaseFontSize }"
+					TextColor="{ DynamicResource AccentColor }" />
+
+                <Label
+					Grid.Column="4"
+					Text="{ x:Static local:GrialShapesFont.Favorite } "
+					FontSize="{ StaticResource BaseFontSize }"
+					TextColor="{ DynamicResource AccentColor }"
+					FontFamily="{ StaticResource IconsFontFamily }"
+					TranslationY="3" />
+            
+                <Label
+					Grid.Column="5"
+					Text="22"
+					FontSize="{ StaticResource BaseFontSize }"
+					TextColor="{ DynamicResource AccentColor }" />
+            </Grid>
+
+			<BoxView
+				Grid.Row="2"
+				Style="{ DynamicResource BrandNameOrnamentStyle }" />
+		
+        </Grid>
+        
+	</Grid>
+		
+</ContentView>

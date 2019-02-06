@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="RoboScout.MovieSelectionPage" xmlns:local="clr-namespace:RoboScout;assembly=RoboScout" xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared" xmlns:ctlRep="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared.Repeater" xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+	Title="{ artina:Translate PageTitleMovieSelection }"
+	BackgroundColor="{ DynamicResource BasePageColor }">
+
+	<ContentPage.Resources>
+		<ResourceDictionary>
+		</ResourceDictionary>
+	</ContentPage.Resources>
+	
+	<ContentPage.Content>
+		<ScrollView
+			Padding="20,20,20,0">
+
+			<Grid
+				RowSpacing="5">
+				<Grid.RowDefinitions>
+					<RowDefinition
+						Height="{ artina:OnOrientationDouble 
+							Default=200,
+							PortraitTablet=300,
+							LandscapeTablet=300 }" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="Auto" />
+				</Grid.RowDefinitions>
+
+
+				<!-- MOVIE BLUR BACKGROUND -->
+				<ffimageloading:CachedImage
+					Grid.Row="0"
+					BackgroundColor="Black"
+					FadeAnimationEnabled="true"
+					Opacity="1"
+					Source="{ Binding Source }"
+					Aspect="AspectFill"
+					HeightRequest="100"
+					Margin="-20,-20,-20,0">
+					<ffimageloading:CachedImage.Transformations>
+						<fftransformations:BlurredTransformation
+							Radius="20" />
+					</ffimageloading:CachedImage.Transformations>
+					
+					<ffimageloading:CachedImage.GestureRecognizers>
+						<TapGestureRecognizer
+							Tapped="OnMovieTapped" />
+					</ffimageloading:CachedImage.GestureRecognizers>
+				</ffimageloading:CachedImage>
+
+				<!-- MOVIE PICTURE -->
+				<ffimageloading:CachedImage
+					Margin="0,-20,0,20"
+					HeightRequest="{ artina:OnOrientationDouble 
+						Default=150,
+						PortraitTablet=240,
+						LandscapeTablet=240 }"
+					FadeAnimationEnabled="true"
+					Source="{ Binding Source }"
+					Aspect="AspectFit"
+					VerticalOptions="Center" />
+
+				<artina:Button
+					WidthRequest="200"
+					VerticalOptions="End"
+					HorizontalOptions="Center"
+					Text="{artina:Translate Key=ButtonPlayMovie}"
+					Style="{ StaticResource PrimaryActionButtonStyle }"
+					TranslationY="22"
+					Clicked="OnMovieTapped" />
+
+				<!-- DETAILS -->
+				<StackLayout
+					Grid.Row="1"
+					Margin="0,30,0,0">
+
+					<!-- TITLE -->
+					<Label
+						Text="{ Binding Title }"
+						FontSize="{ artina:OnOrientationDouble
+							PortraitPhone=22,
+							LandscapePhone=22,
+							PortraitTablet=34,
+							LandscapeTablet=34 }"
+						FontAttributes="Bold"
+						TextColor="{ DynamicResource AccentColor }"
+						Margin="0,5" />
+
+					<!-- MOVIE DATA -->
+					<StackLayout
+						Orientation="Horizontal"
+						VerticalOptions="Center">
+
+						<Label
+							Text="{ Binding Seasons }"
+							FontAttributes="Bold"
+							FontSize="{ artina:OnOrientationDouble
+								PortraitPhone=14,
+								LandscapePhone=14,
+								PortraitTablet=20,
+								LandscapeTablet=20 }"
+							HorizontalOptions="FillAndExpand"
+							HorizontalTextAlignment="Start" /> 
+					</StackLayout>
+
+					<!-- RATING -->
+					<local:Rating
+						Grid.Row="3"
+						VerticalOptions="Center"
+						Max="{ Binding RatingMax }"
+						Value="{ Binding RatingValue }"
+						HorizontalOptions="Start" />
+
+					<!-- DESCRIPTION -->
+					<Label
+						Grid.Row="4"
+						Text="{ Binding Plot }"
+						FontSize="{ artina:OnOrientationDouble
+							PortraitPhone=12,
+							LandscapePhone=12,
+							PortraitTablet=18,
+							LandscapeTablet=18 }"
+						HorizontalTextAlignment="Start" /> 
+
+					<Grid>
+						<Grid.RowDefinitions>
+							<RowDefinition
+								Height="Auto" />
+							<RowDefinition
+								Height="Auto" />
+						</Grid.RowDefinitions>
+
+						<!-- CAST -->
+						<ctlRep:WrapPanel
+							Grid.Row="0"
+							Items="{ Binding Cast }">
+							<ctlRep:WrapPanel.ItemTemplate>
+								<DataTemplate>
+									<Label
+										VerticalOptions="Center"
+										Text="{ Binding }"
+										FontSize="{ artina:OnOrientationDouble 
+											Default=10, 
+											PortraitPhone=12,
+											LandscapePhone=12,
+											PortraitTablet=18,
+											LandscapeTablet=18 }" />
+								</DataTemplate>
+							</ctlRep:WrapPanel.ItemTemplate>
+							<ctlRep:WrapPanel.ItemSeparatorTemplate>
+								<DataTemplate>
+									<Label
+										VerticalOptions="Center"
+										Margin="0,0,6,0"
+										Text="{ artina:Translate StringColon }"
+										FontSize="{ artina:OnOrientationDouble 
+											Default=10, 
+											PortraitPhone=12,
+											LandscapePhone=12,
+											PortraitTablet=18,
+											LandscapeTablet=18 }" />
+								</DataTemplate>
+							</ctlRep:WrapPanel.ItemSeparatorTemplate>							
+
+							<local:RoundedLabel
+								Grid.Row="0"
+								Grid.Column="0"
+								VerticalOptions="Start"
+								TranslationY="2"
+								ctlRep:WrapPanel.Position="Start"
+								Margin="0,0,6,0"
+								RoundedLabelText="{ artina:Translate RoundedLabelCast }"
+								RoundedLabelTextColor="White"
+								RoundedLabelBackgroundColor="{ DynamicResource ComplementColor }"
+								RoundedLabelCornerRadius="4"
+								RoundedLabelPadding="6,0"
+								RoundedLabelFontSize="{ artina:OnOrientationDouble
+									PortraitPhone=10,
+									LandscapePhone=10,
+									PortraitTablet=16,
+									LandscapeTablet=16 }" />
+													
+						</ctlRep:WrapPanel>
+							
+						<!-- Director -->
+						<ctlRep:WrapPanel
+							Grid.Row="1"
+							ColumnSpacing="6">
+
+							<local:RoundedLabel
+								VerticalOptions="Start"
+								RoundedLabelText="{ artina:Translate RoundedLabelDirector }"
+								RoundedLabelTextColor="White"
+								TranslationY="2"
+								RoundedLabelBackgroundColor="{ DynamicResource ComplementColor }"
+								RoundedLabelCornerRadius="4"
+								RoundedLabelPadding="6,0"
+								RoundedLabelFontSize="{ artina:OnOrientationDouble
+									PortraitPhone=10,
+									LandscapePhone=10,
+									PortraitTablet=16,
+									LandscapeTablet=16 }" /> 
+								
+							<Label
+								Text="{ Binding Director }"
+								VerticalOptions="Center"
+								FontSize="{ artina:OnOrientationDouble
+										PortraitPhone=12,
+										LandscapePhone=12,
+										PortraitTablet=18,
+										LandscapeTablet=18 }" /> 
+								
+						</ctlRep:WrapPanel>
+
+					</Grid>
+
+				</StackLayout>
+
+				<!-- SIMILAR MOVIES -->
+				<local:DashboardMultipleScrollSectionTemplate
+					Grid.Row="2"
+					BindingContext="{Binding Section}"
+					Margin="-10,0,-60,0"
+					Padding="0,0,40,0" />
+
+			</Grid>
+		</ScrollView>
+		
+	</ContentPage.Content>
+	
+</ContentPage>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="RoboScout.CustomNavBarPage" xmlns:local="clr-namespace:RoboScout;assembly=RoboScout" xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared"
+	BackgroundColor="{ DynamicResource BasePageColor }"
+	Title="{ artina:Translate PageTitleCustomNavBar }">
+
+	<!-- MAIN CONTAINER -->
+	<Grid
+		RowSpacing="0">
+		<Grid.RowDefinitions>
+			<RowDefinition
+				Height="Auto" />
+			<RowDefinition
+				Height="*" />
+		</Grid.RowDefinitions>
+
+		<!-- CUSTOM NAVBAR -->
+		<local:CustomNavBar
+			Grid.Row="0" />
+
+		<!-- SCROLL AREA -->
+		<ScrollView
+			Grid.Row="1"
+			Grid.RowSpan="1"
+			Padding="{ StaticResource MainWrapperPadding }">
+			
+			<!-- MAIN CONTAINER -->
+			<Grid
+				ColumnSpacing="0"
+				RowSpacing="0"
+				HorizontalOptions="Fill"
+				VerticalOptions="FillAndExpand">
+
+				<Grid.RowDefinitions>
+					<RowDefinition
+						Height="100" />
+					<RowDefinition
+						Height="*" />
+				</Grid.RowDefinitions>
+
+				<!-- LOGO -->
+				<Grid
+					Grid.Row="0"
+					WidthRequest="60"
+					HeightRequest="60"
+					Margin="20"
+					VerticalOptions="Start"
+					HorizontalOptions="Start">
+				
+					<BoxView
+						WidthRequest="60"
+						HorizontalOptions="Start"
+						BackgroundColor="{ DynamicResource AccentColor }" />
+				
+					<Label
+						TextColor="{ DynamicResource OverImageTextColor }"
+						FontSize="42"
+						Text="{ x:Static local:GrialShapesFont.LogoGrial }"
+						Style="{ StaticResource FontIcon }"
+						HorizontalTextAlignment="Center"
+						VerticalTextAlignment="Center" />
+				</Grid>
+
+
+				<!--CLAIM TEXT-->
+				<StackLayout
+					Grid.Row="1"
+					Spacing="10"
+					Padding="20"
+					Orientation="Vertical"
+					VerticalOptions="Start"
+					TranslationY="0">
+
+					<Label
+						LineBreakMode="WordWrap"
+						Text="{ artina:Translate LabelCustomNavBar }"
+						TextColor="{ DynamicResource BaseTextColor }"
+						VerticalTextAlignment="Center"
+						FontAttributes="Bold">
+							<Label.FontSize> 
+								<OnIdiom
+								x:TypeArguments="x:Double"
+								Phone="26"
+								Tablet="36" />
+							</Label.FontSize>
+					</Label>
+
+					<Label
+						LineBreakMode="WordWrap"
+						Text="{ artina:Translate LabelCustomNavBarText }"
+						TextColor="{ DynamicResource BaseTextColor }"
+						VerticalTextAlignment="Center">
+							<Label.FontSize> 
+								<OnIdiom
+								x:TypeArguments="x:Double"
+								Phone="17"
+								Tablet="27" />
+							</Label.FontSize>
+					</Label>
+
+					<Label
+						LineBreakMode="WordWrap"
+						Text="{ artina:Translate LabelCustomavBarNoteMenu }"
+						TextColor="{ DynamicResource OverImageTextColor }"
+						VerticalTextAlignment="Center">
+							<Label.FontSize> 
+								<OnIdiom
+								x:TypeArguments="x:Double"
+								Phone="17"
+								Tablet="27" />
+							</Label.FontSize>
+					</Label>
+
+					<!-- ACCENT LINE -->
+					<BoxView
+						Style="{ DynamicResource BrandNameOrnamentStyle }"
+						BackgroundColor="{ DynamicResource AccentColor }" />
+					
+				</StackLayout>
+			</Grid>
+		</ScrollView>
+		
+	</Grid>
+
+</ContentPage>

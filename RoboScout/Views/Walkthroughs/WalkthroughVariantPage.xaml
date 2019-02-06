@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="RoboScout.WalkthroughVariantPage" xmlns:local="clr-namespace:RoboScout;assembly=RoboScout" xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared"
+	Style="{StaticResource WalkthroughStepStyle}">
+
+	<local:WalkthroughVariantStepItemTemplate
+		BackgroundColor="#e51e61"
+		StepBackgroundImage="{ StaticResource WalkthroughStepGenericPhoneBackgroundImage }"
+		Header="{ artina:Translate WalkthroughHeaderWelcome }"
+		Text="{ artina:Translate WalkthroughTextWelcome }"
+		IconText="{ x:Static local:GrialShapesFont.Public }"
+		IconColor="#FFFFFF"
+		ButtonText="{ artina:Translate StringNext }"
+		ButtonBackgroundColor="#B31250" />
+
+	<local:WalkthroughVariantStepItemTemplate
+		BackgroundColor="#7C4ECD"
+		StepBackgroundImage="{ StaticResource WalkthroughStepGenericPhoneBackgroundImage }"
+		Header="{ artina:Translate WalkthroughHeaderSaveTime }"
+		Text="{ artina:Translate WalkthroughTextSaveTime }"
+		IconText="{ x:Static local:GrialShapesFont.FlashOn }"
+		IconColor="#FFFFFF"
+		ButtonText="{ artina:Translate StringNext }"
+		ButtonBackgroundColor="#6A40B9" />
+
+	<local:WalkthroughVariantStepItemTemplate
+		BackgroundColor="#488cfb"
+		StepBackgroundImage="{ StaticResource WalkthroughStepGenericPhoneBackgroundImage }"
+		Header="{ artina:Translate WalkthroughHeaderLearn }"
+		Text="{ artina:Translate WalkthroughTextLearn }"
+		IconText="{ x:Static local:GrialShapesFont.School }"
+		IconColor="#FFFFFF"
+		ButtonText="{ artina:Translate StringFinish }"
+		ButtonBackgroundColor="#5F7DD4" />
+
+</CarouselPage>

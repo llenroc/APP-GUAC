@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared" xmlns:local="clr-namespace:RoboScout;assembly=RoboScout"
+	x:Class="RoboScout.SettingsPage"
+	Title="{ artina:Translate PageTitleSettings }"
+	BackgroundColor="{ DynamicResource BasePageColor }">
+		
+	<Grid
+		Padding="20"
+		VerticalOptions="FillAndExpand">
+        
+		<TableView
+			Intent="Settings"
+			VerticalOptions="Start">
+			<TableView.Root>
+				<TableSection
+					Title="{ artina:Translate StringYourAccount }">
+					<ImageCell
+						ImageSource="{ StaticResource ThemeAvatarSample0Image }"
+						Text="{ artina:Translate StringRobertStainford }"
+						Detail="{ artina:Translate ImageCellDetailDaysLoggedIn }"
+						TextColor="{ DynamicResource BaseTextColor }" />  
+					<EntryCell
+						Text="{ artina:Translate EntryCellSampleEmail }"
+						Placeholder="{ artina:Translate StringEmail }" />
+					<EntryCell
+						Placeholder="{ artina:Translate EntryCellPlaceholderPhoneNumber }" />
+				</TableSection>
+
+				<TableSection
+					Title="{ artina:Translate StringConnectYourAccount }">
+					<SwitchCell
+						On="true"
+						Text="{ artina:Translate StringFacebook }" />
+					<SwitchCell
+						Text="{ artina:Translate StringTwitter }" />
+				</TableSection>
+			</TableView.Root>
+		</TableView>
+
+        <StackLayout
+			VerticalOptions="End">
+		<artina:Button
+				Style="{ StaticResource SaveButtonStyle }"
+				Text="{ artina:Translate StringSaveChanges }" />
+
+		<artina:Button
+				Style="{ StaticResource DeleteButtonStyle }"
+				Text="{ artina:Translate ButtonDeleteAccount }" />
+
+        </StackLayout>
+
+	</Grid>
+</ContentPage>

@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	
+
+	<!-- COMMON -->
+	<data name="StringGrial" xml:space="preserve">
+		<value>[es-US] Grial</value>
+	</data>
+	<data name="StringUIKIT" xml:space="preserve">
+		<value>[es-US] UI.KIT</value>
+	</data>
+	<data name="StringColon" xml:space="preserve">
+		<value>[es-US] ,</value>
+	</data>
+	<data name="StringNew" xml:space="preserve">
+		<value>[es-US] NEW</value>
+	</data>
+	<data name="StringOK" xml:space="preserve">
+		<value>[es-US] OK</value>
+	</data>
+	<data name="StringSave" xml:space="preserve">
+		<value>[es-US] Save</value>
+	</data>
+	<data name="StringCompare" xml:space="preserve">
+		<value>[es-US] Compare</value>
+	</data>
+	<data name="StringShare" xml:space="preserve">
+		<value>[es-US] Share</value>
+	</data>
+	<data name="StringBuy" xml:space="preserve">
+		<value>[es-US] Buy</value>
+	</data>
+	<data name="StringUsername" xml:space="preserve">
+		<value>[es-US] Username</value>
+	</data>
+	<data name="StringName" xml:space="preserve">
+		<value>[es-US] Name</value>
+	</data>
+	<data name="StringLastName" xml:space="preserve">
+		<value>[es-US] Last Name</value>
+	</data>
+	<data name="StringCardNumber" xml:space="preserve">
+		<value>[es-US] Card Number</value>
+	</data>
+	<data name="StringCVC" xml:space="preserve">
+		<value>[es-US] CVC</value>
+	</data>
+	<data name="StringExpirationDate" xml:space="preserve">
+		<value>[es-US] Expiration Date</value>
+	</data>
+	<data name="StringAddress" xml:space="preserve">
+		<value>[es-US] Address</value>
+	</data>
+	<data name="StringAddress1" xml:space="preserve">
+		<value>[es-US] Address Line 1</value>
+	</data>
+	<data name="StringAddress2" xml:space="preserve">
+		<value>[es-US] Address Line 2</value>
+	</data>
+	<data name="StringCity" xml:space="preserve">
+		<value>[es-US] City</value>
+	</data>
+	<data name="StringState" xml:space="preserve">
+		<value>[es-US] State</value>
+	</data>
+	<data name="StringZipCode" xml:space="preserve">
+		<value>[es-US] Zip Code</value>
+	</data>
+	<data name="StringCountry" xml:space="preserve">
+		<value>[es-US] Country</value>
+	</data>
+	<data name="StringEmail" xml:space="preserve">
+		<value>[es-US] Email</value>
+	</data>
+	<data name="StringPassword" xml:space="preserve">
+		<value>[es-US] Password</value>
+	</data>
+	<data name="StringSignUp" xml:space="preserve">
+		<value>[es-US] Sign Up!</value>
+	</data>
+	<data name="StringLogin" xml:space="preserve">
+		<value>[es-US] Login</value>
+	</data>
+	<data name="StringWelcomeToGrial" xml:space="preserve">
+		<value>[es-US] Welcome to Grial!</value>
+	</data>
+	<data name="StringTwitter" xml:space="preserve">
+		<value>[es-US] Twitter</value>
+	</data>
+	<data name="StringFacebook" xml:space="preserve">
+		<value>[es-US] Facebook</value>
+	</data>
+	<data name="StringSend" xml:space="preserve">
+		<value>[es-US] Send</value>
+	</data>
+	<data name="StringDone" xml:space="preserve">
+		<value>[es-US] Done</value>
+	</data>
+	<data name="StringCantReachLocation" xml:space="preserve">
+		<value>[es-US] Can't reach your current location</value>
+	</data>
+	<data name="StringConfirmation" xml:space="preserve">
+		<value>[es-US] Confirmation</value>
+	</data>
+	<data name="StringError" xml:space="preserve">
+		<value>[es-US] Error</value>
+	</data>
+	<data name="StringNotification" xml:space="preserve">
+		<value>[es-US] Notification</value>
+	</data>
+	<data name="StringPleaseConfirmAddress" xml:space="preserve">
+		<value>[es-US] Please confirm your email address</value>
+	</data>
+	<data name="StringPleaseContactSupport" xml:space="preserve">
+		<value>[es-US] Please contact support center</value>
+	</data>
+	<data name="StringSuccess" xml:space="preserve">
+		<value>[es-US] Success</value>
+	</data>
+	<data name="StringWarning" xml:space="preserve">
+		<value>[es-US] Warning</value>
+	</data>
+	<data name="StringYouHaveANewFollower" xml:space="preserve">
+		<value>[es-US] You have a new follower</value>
+	</data>
+	<data name="StringYouHaveANewMessage" xml:space="preserve">
+		<value>[es-US] You have a new message</value>
+	</data>
+	<data name="StringScreens" xml:space="preserve">
+		<value>[es-US] screens</value>
+	</data>
+	<data name="StringCategorySocial" xml:space="preserve">
+		<value>[es-US] Social</value>
+	</data>
+	<data name="StringCategoryArticles" xml:space="preserve">
+		<value>[es-US] Articles</value>
+	</data>
+	<data name="StringCategoryDashboards" xml:space="preserve">
+		<value>[es-US] Dashboards</value>
+	</data>
+	<data name="StringCategoryNavigation" xml:space="preserve">
+		<value>[es-US] Navigation</value>
+	</data>
+	<data name="StringCategoryLogins" xml:space="preserve">
+		<value>[es-US] Logins</value>
+	</data>
+	<data name="StringCategoryECommerce" xml:space="preserve">
+		<value>[es-US] ECommerce</value>
+	</data>
+	<data name="StringCategoryWalkthroughs" xml:space="preserve">
+		<value>[es-US] Walkthroughs</value>
+	</data>
+	<data name="StringCategoryMessages" xml:space="preserve">
+		<value>[es-US] Messages</value>
+	</data>
+	<data name="StringCategoryTheme" xml:space="preserve">
+		<value>[es-US] Theme</value>
+	</data>
+	<data name="StringRichardStainford" xml:space="preserve">
+		<value>[es-US] Richard Stainford</value>
+	</data>
+	<data name="StringClareJapi" xml:space="preserve">
+		<value>[es-US] Clare Japi</value>
+	</data>
+	<data name="StringRobertStainford" xml:space="preserve">
+		<value>[es-US] Robert Stainford</value>
+	</data>
+	<data name="StringNext" xml:space="preserve">
+		<value>[es-US] Next</value>
+	</data>
+	<data name="StringPrevious" xml:space="preserve">
+		<value>[es-US] Previous</value>
+	</data>
+	<data name="StringFinish" xml:space="preserve">
+		<value>[es-US] Finish!</value>
+	</data>
+	<data name="StringGiveUsACall" xml:space="preserve">
+		<value>[es-US] Give us a call</value>
+	</data>
+	<data name="StringLinkedin" xml:space="preserve">
+		<value>[es-US] Linkedin</value>
+	</data>
+	<data name="StringApply" xml:space="preserve">
+		<value>[es-US] Apply</value>
+	</data>
+	<data name="StringCustom" xml:space="preserve">
+		<value>[es-US] Custom ?</value>
+	</data>
+	<data name="StringCallTheExperts" xml:space="preserve">
+		<value>[es-US] Call the experts</value>
+	</data>
+	<data name="StringContact" xml:space="preserve">
+		<value>[es-US] Contact</value>
+	</data>
+	<data name="StringLight" xml:space="preserve">
+		<value>[es-US] Light</value>
+	</data>
+	<data name="StringDark" xml:space="preserve">
+		<value>[es-US] Dark</value>
+	</data>
+	<data name="StringEnterprise" xml:space="preserve">
+		<value>[es-US] Enterprise</value>
+	</data>
+	<data name="StringLightTheme" xml:space="preserve">
+		<value>[es-US] LightTheme</value>
+	</data>
+	<data name="StringDarkTheme" xml:space="preserve">
+		<value>[es-US] DarkTheme</value>
+	</data>
+	<data name="StringEnterpriseTheme" xml:space="preserve">
+		<value>[es-US] EnterpriseTheme</value>
+	</data>
+	<data name="StringLoading" xml:space="preserve">
+		<value>[es-US] Loading...</value>
+	</data>
+	<data name="StringSaveChanges" xml:space="preserve">
+		<value>[es-US] Save Changes</value>
+	</data>
+	<data name="StringBatmanChoice" xml:space="preserve">
+		<value>[es-US] Batman's choice</value>
+	</data>
+	<data name="StringExtraSoftUIFlavor" xml:space="preserve">
+		<value>[es-US] Extra soft UI flavor</value>
+	</data>
+	<data name="StringImpressYourBoss" xml:space="preserve">
+		<value>[es-US] Impress your boss</value>
+	</data>
+	<data name="StringIcons" xml:space="preserve">
+		<value>[es-US] Icons</value>
+	</data>
+	<data name="StringContextActionTapped" xml:space="preserve">
+		<value>[es-US] {0} Context Action Tapped</value>
+	</data>
+	<data name="StringTappedOnContextAction" xml:space="preserve">
+		<value>[es-US] You tapped on {0} context action.</value>
+	</data>
+	<data name="StringMessageTapped" xml:space="preserve">
+		<value>[es-US] Message Tapped</value>
+	</data>
+	<data name="StringTappedOnAuthorMessage" xml:space="preserve">
+		<value>[es-US] You tapped on {0}'s message.</value>
+	</data>
+	<data name="StringMoreFrom" xml:space="preserve">
+		<value>[es-US] More from {0}</value>
+	</data>
+
+	<!-- ARTICLES -->
+	<data name="PageTitleArticleClassicView" xml:space="preserve">
+		<value>[es-US] Articles Classic View</value>
+	</data>
+	<data name="PageTitleArticlesFeed" xml:space="preserve">
+		<value>[es-US] Articles Feed</value>
+	</data>
+	<data name="PageTitleArticleList" xml:space="preserve">
+		<value>[es-US] Articles List</value>
+	</data>
+	<data name="PageTitleArticlesListVariant" xml:space="preserve">
+		<value>[es-US] Articles List Variant</value>
+	</data>
+	<data name="PageTitleFrontPageNews" xml:space="preserve">
+		<value>[es-US] Front Page News</value>
+	</data>
+	<data name="PageTitleArticleView" xml:space="preserve">
+		<value>[es-US] Article View</value>
+	</data>
+
+
+	<!-- DASHBOARDS -->
+	<data name="PageTitleDashboardCards" xml:space="preserve">
+		<value>[es-US] Dashboard Cards</value>
+	</data>
+	<data name="PageTitleDashboardFlat" xml:space="preserve">
+		<value>[es-US] Flat Dashboard</value>
+	</data>
+	<data name="PageTitleDashboardMultipleScroll" xml:space="preserve">
+		<value>[es-US] Dashboard Multiple Scroll</value>
+	</data>
+	<data name="PageTitleDashboardMultipleTiles" xml:space="preserve">
+		<value>[es-US] Multiple Tiles</value>
+	</data>
+	<data name="PageMenuTitleDashboardIcons" xml:space="preserve">
+		<value>[es-US] Icons Dashboard</value>
+	</data>
+	<data name="PageTitleDashboardIcons" xml:space="preserve">
+		<value>[es-US] Dashboard</value>
+	</data>	
+	<data name="PageTitleDashboardWithImages" xml:space="preserve">
+		<value>[es-US] Images Dashboard</value>
+	</data>
+	<data name="PageTitleDashboardScrollable" xml:space="preserve">
+		<value>[es-US] Dashboard Scrollable</value>
+	</data>
+	<data name="PageTitleMovieSelection" xml:space="preserve">
+		<value>[es-US] Movie Selection</value>
+	</data>
+	<data name="RoundedLabelCast" xml:space="preserve">
+		<value>[es-US] CAST</value>
+	</data>
+	<data name="RoundedLabelDirector" xml:space="preserve">
+		<value>[es-US] DIRECTOR</value>
+	</data>
+	<data name="AlertTitleMovieTapped" xml:space="preserve">
+		<value>[es-US] Movie Tapped!</value>
+	</data>
+	<data name="AlertMessageMovieShouldPlayMovieNow" xml:space="preserve">
+		<value>[es-US] You should start playing the movie now</value>
+	</data>
+	<data name="SampleDashboardGrialMovies" xml:space="preserve">
+		<value>[es-US] Grial Movies</value>
+	</data>
+	<data name="ButtonPlayMovie" xml:space="preserve">
+		<value>[es-US] Play Movie</value>
+	</data>
+	
+	<!-- SOCIAL -->
+	<data name="PageTitleDocumentTimeline" xml:space="preserve">
+		<value>[es-US] Document Timeline</value>
+	</data>
+	<data name="PageTitleProfile" xml:space="preserve">
+		<value>[es-US] Profile</value>
+	</data>
+	<data name="LabelPassionDrivenDesigner" xml:space="preserve">
+		<value>[es-US] Passion driven designer and developer. Frustrated musician and father of two.</value>
+	</data>	
+	<data name="LabelPhotographyIsMyPassion" xml:space="preserve">
+		<value>[es-US] Photography is my passion. Black and white is the way I see the world.</value>
+	</data>
+	<data name="SampleUserProfile" xml:space="preserve">
+		<value>[es-US] User Profile</value>
+	</data>
+	<data name="PageTitleSocial" xml:space="preserve">
+		<value>[es-US] Social</value>
+	</data>
+	<data name="PageTitleSocialVariant" xml:space="preserve">
+		<value>[es-US] Social Variant</value>
+	</data>
+	<data name="LabelUserDescriptionVariant" xml:space="preserve">
+		<value>[es-US] I like my toast done on one side.</value>
+	</data>
+	<data name="PageTitleTimeline" xml:space="preserve">
+		<value>[es-US] Timeline</value>
+	</data>
+	<data name="StringFriends" xml:space="preserve">
+		<value>[es-US] FRIENDS</value>
+	</data>
+	<data name="StringPhotos" xml:space="preserve">
+		<value>[es-US] PHOTOS</value>
+	</data>
+
+	<!-- ECOMMERCE -->
+	<data name="ButtonAddToCart" xml:space="preserve">
+		<value>[es-US] Add to cart</value>
+	</data>
+	<data name="PageTitleProductsCatalog" xml:space="preserve">
+		<value>[es-US] Products Catalog</value>
+	</data>
+	<data name="SampleProductFullscreen" xml:space="preserve">
+		<value>[es-US] Product FullScreen</value>
+	</data>
+	<data name="PageTitleProductOrder" xml:space="preserve">
+		<value>[es-US] Product Order</value>
+	</data>
+	<data name="PageTitleProductGrid" xml:space="preserve">
+		<value>[es-US] Products Grid</value>
+	</data>
+	<data name="PageTitleProductGridVariant" xml:space="preserve">
+		<value>[es-US] Products Grid Variant</value>
+	</data>
+	<data name="BannerTitle25DiscOff" xml:space="preserve">
+		<value>[es-US] 25% discount</value>
+	</data>
+	<data name="BannerBodyEnjoyItNow" xml:space="preserve">
+		<value>[es-US] Enjoy it now!</value>
+	</data>
+	<data name="SampleProductItemView" xml:space="preserve">
+		<value>[es-US] Product Item View</value>
+	</data>
+	<data name="SampleProductCarousel" xml:space="preserve">
+		<value>[es-US] Products Carousel</value>
+	</data>
+
+	<!-- LOGINS  -->
+	<data name="PageTitleSimpleLogin" xml:space="preserve">
+		<value>[es-US] Simple Login</value>
+	</data>
+	<data name="PageTitleSimpleSignup" xml:space="preserve">
+		<value>[es-US] Simple Sign Up</value>
+	</data>
+	<data name="PageTitlePasswordRecovery" xml:space="preserve">
+		<value>[es-US] Password Recovery</value>
+	</data>
+	<data name="PageTitleLogin" xml:space="preserve">
+		<value>[es-US] Login</value>
+	</data>
+	<data name="PageTitleSignup" xml:space="preserve">
+		<value>[es-US] Sign Up</value>
+	</data>
+	<data name="LabelUseCredentialsToLogin" xml:space="preserve">
+		<value>[es-US] Use your credentials to login.</value>
+	</data>
+	<data name="LabelOrConnectWith" xml:space="preserve">
+			<value>[es-US] Or connect with</value>
+	</data>
+	<data name="LabelForgotYourPassword" xml:space="preserve">
+		<value>[es-US] Forgot your password?</value>
+	</data>
+	<data name="LabelForgotYourPasswordExplained" xml:space="preserve">
+		<value>[es-US] Don't worry type your email here and we will recover it for you.</value>
+	</data>
+	<data name="ErrorPleaseEnterValidEmail" xml:space="preserve">
+		<value>[es-US] Please enter a valid e-mail</value>
+	</data>
+	<data name="LabelLoginOrRegisterUsinMailOrPass" xml:space="preserve">
+		<value>[es-US] Login or register using your email and password.</value>
+	</data>
+	<data name="LabelRegisterNow" xml:space="preserve">
+		<value>[es-US] Register now</value>
+	</data>
+	<data name="LabelRegisterNowAndEnjoy" xml:space="preserve">
+		<value>[es-US] Register now and enjoy the pleasures of the demo.</value>
+	</data>
+	<data name="LabelPasswordsDoNotMatch" xml:space="preserve">
+		<value>[es-US] Passwords do not match</value>
+	</data>
+	<data name="LabelRepeatPassword" xml:space="preserve">
+		<value>[es-US] Repeat Password</value>
+	</data>
+	<data name="ButtonAlreadyUserLoginNow" xml:space="preserve">
+		<value>[es-US] Already a user? Login now</value>
+	</data>
+
+	<!-- MESSAGES  -->
+	<data name="PageTitleChatTimeLine" xml:space="preserve">
+		<value>[es-US] Chat Timeline</value>
+	</data>
+	<data name="PageTitleRecentChatList" xml:space="preserve">
+		<value>[es-US] Recent Chat List</value>
+	</data>
+	<data name="PageTitleMessages" xml:space="preserve">
+		<value>[es-US] Messages</value>
+	</data>
+	<data name="PageTitleChatMessageList" xml:space="preserve">
+		<value>[es-US] Chat Messages List</value>
+	</data>
+	<data name="LabelThereIsNothingHere" xml:space="preserve">
+		<value>[es-US] There's nothing here my friend :)</value>
+	</data>
+
+	<!-- NAVIGATION -->
+	<data name="PageTitleMainMenu" xml:space="preserve">
+		<value>[es-US] Main Menu</value>
+	</data>
+	<data name="PageTitleCardsList" xml:space="preserve">
+		<value>[es-US] Cards List</value>
+	</data>
+	<data name="PageTitleCategoriesListFlat" xml:space="preserve">
+		<value>[es-US] Categories List Flat</value>
+	</data>
+	<data name="PageTitleCategoriesListWithIcons" xml:space="preserve">
+		<value>[es-US] Icon Categories</value>
+	</data>
+	<data name="PageTitleCategoryListImages" xml:space="preserve">
+		<value>[es-US] Image Categories</value>
+	</data>
+	<data name="PageTitleEmptyState" xml:space="preserve">
+		<value>[es-US] Empty State</value>
+	</data>
+	<data name="PageTitleTitleNotifications" xml:space="preserve">
+		<value>[es-US] Notifications</value>
+	</data>
+	<data name="StringReadyMadeUIsForXamarin" xml:space="preserve">
+		<value>[es-US] Ready made UI's for Xamarin.Forms.</value>
+	</data>
+	<data name="PageTitleWelcome" xml:space="preserve">
+		<value>[es-US] Welcome Page</value>
+	</data>
+	<data name="LabelTakeYourAppToNextLevel" xml:space="preserve">
+		<value>[es-US] Take your app to the next level with Grial UI Kit.</value>
+	</data>
+	<data name="PageTitleWelcomeStarter" xml:space="preserve">
+		<value>[es-US] Welcome Starter</value>
+	</data>
+	<data name="PageTitleCustomNavBar" xml:space="preserve">
+		<value>[es-US] Custom NavBar</value>
+	</data>
+	<data name="SampleTitleRootPage" xml:space="preserve">
+		<value>[es-US] Root Page</value>
+	</data>
+	<data name="LabelWelcomeToGrialStarter" xml:space="preserve">
+		<value>[es-US] Welcome to Grial.Starter</value>
+	</data>
+	<data name="LabelWelcomeToGrialStarterDescription" xml:space="preserve">
+		<value>[es-US] Welcome to Grial Starter. You are all setup and ready to rock!</value>
+	</data>
+	<data name="ButtonSeeOurWalkThrough" xml:space="preserve">
+		<value>[es-US] See our walkthrough</value>
+	</data>
+	<data name="ButtonBrowseOurSamples" xml:space="preserve">
+		<value>[es-US] Browse our samples</value>
+	</data>
+
+	<!-- WALKTHROUGHS -->
+	<data name="SampleTitleWalkthrough" xml:space="preserve">
+		<value>[es-US] Walkthrough</value>
+	</data>
+	<data name="SampleTitleWalkthroughFlat" xml:space="preserve">
+		<value>[es-US] Walkthrough Flat</value>
+	</data>
+	<data name="SampleTitleWalkthroughVariant" xml:space="preserve">
+		<value>[es-US] Walkthrough Variant</value>
+	</data>
+	<data name="WalkthroughHeaderLearn" xml:space="preserve">
+		<value>[es-US] Learn</value>
+	</data>
+	<data name="WalkthroughHeaderSaveTime" xml:space="preserve">
+		<value>[es-US] Save Time</value>
+	</data>
+	<data name="WalkthroughHeaderWelcome" xml:space="preserve">
+		<value>[es-US] Welcome</value>
+	</data>
+	<data name="WalkthroughTextLearn" xml:space="preserve">
+		<value>[es-US] Learn while you do.
+Grial has tones of examples for you to play.</value>
+	</data>
+	<data name="WalkthroughTextSaveTime" xml:space="preserve">
+		<value>[es-US] Save countless hours of UI design.
+Focus on what you do best.</value>
+	</data>
+	<data name="WalkthroughTextWelcome" xml:space="preserve">
+		<value>[es-US] To a new world of posibilities,
+welcome to Grial UI Kit.</value>
+	</data>
+
+	<!-- THEME -->
+	<data name="PageTitleAnimation" xml:space="preserve">
+		<value>[es-US] Animation</value>
+	</data>
+	<data name="LabelYesGrialSupportsLottie" xml:space="preserve">
+		<value>[es-US] Yes! Grial UI Kit now supports Lottie Animations out of the box.</value>
+	</data>
+	<data name="LabelNeedCustomAnimations" xml:space="preserve">
+		<value>[es-US] Need custom animations?</value>
+	</data>
+	<data name="PageTitleTabControl" xml:space="preserve">
+		<value>[es-US] Grial TabControl</value>
+	</data>
+	<data name="PageTitleAndroidTabControl" xml:space="preserve">
+		<value>[es-US] Grial Android TabControl</value>
+	</data>
+	<data name="PageTitleiOSTabControl" xml:space="preserve">
+		<value>[es-US] Grial iOS TabControl</value>
+	</data>
+	<data name="PageTitleBottomTabControl" xml:space="preserve">
+		<value>[es-US] Grial Bottom TabControl</value>
+	</data>
+	<data name="PageTitleTabbedPage" xml:space="preserve">
+		<value>[es-US] Tabbed Page</value>
+	</data>
+	<data name="SampleTitleThemeDemoSettings" xml:space="preserve">
+		<value>[es-US] Demo Settings</value>
+	</data>
+	<data name="PageTitleAbout" xml:space="preserve">
+		<value>[es-US] Generic About Page</value>
+	</data>
+	<data name="PageTitleCustomSettings" xml:space="preserve">
+		<value>[es-US] Custom Settings Page</value>
+	</data>
+	<data name="PageTitleCustomActivityIndicator" xml:space="preserve">
+		<value>[es-US] Custom Activity Indicator</value>
+	</data>
+	<data name="PageTitleResponsiveHelpers" xml:space="preserve">
+		<value>[es-US] Responsive Helpers</value>
+	</data>
+	<data name="PageTitleThemeFontIcons" xml:space="preserve">
+		<value>[es-US] Theme Icons Preview</value>
+	</data>
+	<data name="PageTitleNativeControls" xml:space="preserve">
+		<value>[es-US] Native Controls</value>
+	</data>
+	<data name="PageTitleCustomRenderers" xml:space="preserve">
+		<value>[es-US] Custom Renderers</value>
+	</data>
+	<data name="PageTitleCommonViews" xml:space="preserve">
+		<value>[es-US] Grial Common Views</value>
+	</data>
+	<data name="PageTitleSettings" xml:space="preserve">
+		<value>[es-US] Settings Page</value>
+	</data>
+	<data name="PageTitleWebview" xml:space="preserve">
+		<value>[es-US] WebView</value>
+	</data>
+	<data name="PageTitleThemesPreview" xml:space="preserve">
+		<value>[es-US] Grial Themes Preview</value>
+	</data>
+	<data name="LabelDisplayGlobalIssues" xml:space="preserve">
+		<value>[es-US] Display Global issues</value>
+	</data>
+	<data name="LabelClearImageCache" xml:space="preserve">
+		<value>[es-US] Clear Image Cache</value>
+	</data>
+
+	<!-- THEME > NATIVE CONTROLS -->
+	<data name="LabelActivityIndicators" xml:space="preserve">
+		<value>[es-US] ActivityIndicators</value>
+	</data>
+	<data name="LabelButtons" xml:space="preserve">
+		<value>[es-US] Buttons</value>
+	</data>
+	<data name="LabelFrames" xml:space="preserve">
+		<value>[es-US] Frames</value>
+	</data>
+	<data name="LabelThisIsAFrameDescription" xml:space="preserve">
+		<value>[es-US] This is a frame containing a Label control</value>
+	</data>
+	<data name="LabelEntriesAndEditors" xml:space="preserve">
+		<value>[es-US] Entries And Editors</value>
+	</data>
+	<data name="LabelPlaceholderEmail" xml:space="preserve">
+		<value>[es-US] Email</value>
+	</data>
+	<data name="EditorSampleText" xml:space="preserve">
+		<value>[es-US] I'm an Editor 
+and I love multiple lines! ;)</value>
+	</data>
+	<data name="LabelSliders" xml:space="preserve">
+		<value>[es-US] Sliders</value>
+	</data>
+	<data name="LabelProgressBars" xml:space="preserve">
+		<value>[es-US] ProgressBars</value>
+	</data>
+	<data name="LabelSwitches" xml:space="preserve">
+		<value>[es-US] Switches</value>
+	</data>
+	<data name="LabelPickers" xml:space="preserve">
+		<value>[es-US] Pickers</value>
+	</data>
+	<data name="PickerTitleSample" xml:space="preserve">
+		<value>[es-US] I'm a Picker!</value>
+	</data>
+	<data name="LabelListViewAndSearchBar" xml:space="preserve">
+		<value>[es-US] ListView and SearchBar</value>
+	</data>
+	<data name="SearchBarPlaceholderSearchForAName" xml:space="preserve">
+		<value>[es-US] Search for a name</value>
+	</data>
+	
+	<data name="ButtonDefault" xml:space="preserve">
+		<value>[es-US] Default</value>
+	</data>
+	<data name="ButtonPrimaryAction" xml:space="preserve">
+		<value>[es-US] Primary Action</value>
+	</data>
+	<data name="ButtonSecondaryAction" xml:space="preserve">
+		<value>[es-US] Secondary Action</value>
+	</data>
+	<data name="ButtonSave" xml:space="preserve">
+		<value>[es-US] Save</value>
+	</data>
+	<data name="ButtonDelete" xml:space="preserve">
+		<value>[es-US] Delete</value>
+	</data>
+	<data name="ButtonMore" xml:space="preserve">
+		<value>[es-US] More</value>
+	</data>
+	<data name="ButtonAddComment" xml:space="preserve">
+		<value>[es-US] Add Comment</value>
+	</data>
+
+	<!-- THEME > CUSTOM RENDERERS -->
+	<data name="LabelArtinaButtons" xml:space="preserve">
+		<value>[es-US] Artina Buttons</value>
+	</data>
+	<data name="LabelCircleImages" xml:space="preserve">
+		<value>[es-US] CircleImages</value>
+	</data>
+	<data name="LabelArtinaEntry" xml:space="preserve">
+		<value>[es-US] Artina Entry</value>
+	</data>
+	<data name="LabelValidationEntryErrorStyle" xml:space="preserve">
+		<value>[es-US] Validation Entry Error Style</value>
+	</data>
+	<data name="StringSomethingWrongHere" xml:space="preserve">
+		<value>[es-US] Something wrong here</value>
+	</data>
+	<data name="ValidationErrorEnterRequiredInfo" xml:space="preserve">
+		<value>[es-US] Please enter required information</value>
+	</data>
+	<data name="ValidationWarningOops" xml:space="preserve">
+		<value>[es-US] Oops! This is just a friendly warning</value>
+	</data>
+	
+	<!-- THEME > SETTINGS PAGE  -->
+	<data name="StringYourAccount" xml:space="preserve">
+		<value>[es-US] Your Account</value>
+	</data>
+	<data name="StringConnectYourAccount" xml:space="preserve">
+		<value>[es-US] Connect Your Account</value>
+	</data>
+	<data name="ImageCellDetailDaysLoggedIn" xml:space="preserve">
+		<value>[es-US] 50 days logged in</value>
+	</data>
+	<data name="EntryCellSampleEmail" xml:space="preserve">
+		<value>[es-US] robert.stainford@uxdivers.com</value>
+	</data>
+	<data name="EntryCellPlaceholderPhoneNumber" xml:space="preserve">
+		<value>[es-US] Phone number</value>
+	</data>
+
+	<!--THEME > GRIAL COMMON VIEWS -->
+	<data name="LabelCustomNavBar" xml:space="preserve">
+		<value>[es-US] Custom NavBar</value>
+	</data>
+	<data name="LabelCustomavBarNoteMenu" xml:space="preserve">
+		<value>[es-US] Note the Menu displayed on top ;)</value>
+	</data>
+	<data name="LabelCustomNavBarText" xml:space="preserve">
+		<value>[es-US] The NavBar on this page is totally custom which means you could add as many icons as you need and combine it with other views such as badges, etc.</value>
+	</data>
+	<data name="LabelBrandBlock" xml:space="preserve">
+		<value>[es-US] BrandBlock</value>
+	</data>
+	<data name="LabelBadge" xml:space="preserve">
+		<value>[es-US] Badge</value>
+	</data>
+	<data name="LabelRoundedLabel" xml:space="preserve">
+		<value>[es-US] RoundedLabel</value>
+	</data>
+	<data name="RoundedLabelTextSample" xml:space="preserve">
+		<value>[es-US] Grial Rounded Label Sample</value>
+	</data>
+
+	<!-- THEME > GENERIC ABOUT PAGE -->
+	<data name="LabelAboutUsText" xml:space="preserve">
+		<value>[es-US] VS Studio PartnerWe are a team of passionate UX/UI Designers and Developers with only one mission: help developers make appealing good applications better and 
+faster while we have fun doing what we love.</value>
+	</data>
+	<data name="LabelVisualStudioPartner" xml:space="preserve">
+		<value>[es-US] VS Studio Partner</value>
+	</data>
+	<data name="LabelVisualStudioPartnerLongText" xml:space="preserve">
+		<value>[es-US] As partners of the greatest IDE ever, we are commited to deliver high quality products that really help devs to achieve their best.</value>
+	</data>
+	<data name="LabelWeAreATeamOfPassionate" xml:space="preserve">
+		<value>[es-US] We are a team of passionate UX/UI Designers and Developers with only one mission: help developers make appealing good applications better and 
+faster while we have fun doing what we love.</value>
+	</data>
+	<data name="LabelOurProducts" xml:space="preserve">
+		<value>[es-US] Our Products</value>
+	</data>
+	<data name="LabelOurProductsLongText" xml:space="preserve">
+		<value>[es-US] Grial UI Kit and Gorilla Player for Xamarin.Forms
+had been helping developers build better and good looking apps faster since 2015.
+Stay tunned we have more surprises coming soon…</value>
+	</data>
+	<data name="LabelSpecialThanks" xml:space="preserve">
+		<value>[es-US] Special thanks</value>
+	</data>
+	<data name="LabelCredits" xml:space="preserve">
+		<value>[es-US] Credits</value>
+	</data>
+
+	<!-- THEME > TABCONTROL SAMPLE -->
+	<data name="TabItemTextFriends" xml:space="preserve">
+		<value>[es-US] Friends</value>
+	</data>
+	
+	<data name="StringHelloClare" xml:space="preserve">
+		<value>[es-US] Hello Clare!</value>
+	</data>
+	
+	<data name="StringNoPendingTasksToday" xml:space="preserve">
+		<value>[es-US] You have no pending tasks today! :)</value>
+	</data>
+	
+	<data name="ButtonDeleteAccount" xml:space="preserve">
+		<value>[es-US] Delete Account</value>
+	</data>
+	<data name="UXDIVERS" xml:space="preserve">
+		<value>[es-US] UXDIVERS</value>
+	</data>
+</root>

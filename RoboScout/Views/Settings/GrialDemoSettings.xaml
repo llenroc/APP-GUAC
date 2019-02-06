@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="RoboScout.GrialDemoSettings" xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared"
+	BackgroundColor="{ DynamicResource BasePageColor }"
+	Title="{ artina:Translate PageTitleThemesPreview }">
+
+	<ContentPage.Content>
+		<ScrollView
+			Padding="20,10">
+
+			<Grid
+				RowSpacing="10">
+
+				<Grid.RowDefinitions>
+					<RowDefinition
+						Height="170" />
+					<RowDefinition
+						Height="170" />
+					<RowDefinition
+						Height="170" />
+					<RowDefinition
+						Height="170" />
+				</Grid.RowDefinitions>
+
+				<!-- LIGHT THEME -->
+				<Grid
+					Grid.Row="0"
+					VerticalOptions="Center">
+					
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition
+							Width="*" />
+						<ColumnDefinition
+							Width="*" />
+					</Grid.ColumnDefinitions>
+
+					<Image
+						Grid.Column="0"
+						VerticalOptions="Center"
+						HorizontalOptions="Center"
+						Source="light_theme_thumbnail.png" />
+
+					<StackLayout
+						Grid.Column="1"
+						VerticalOptions="Center">
+						<Label
+							Text="{ artina:Translate StringLightTheme }"
+							FontAttributes="Bold"
+							HorizontalTextAlignment="Center" />
+						<Label
+							Text="{ artina:Translate StringExtraSoftUIFlavor }"
+							FontSize="14"
+							HorizontalTextAlignment="Center" />
+						
+						<artina:Button
+							Text="{ artina:Translate StringApply }"
+							WidthRequest="100"
+							HorizontalOptions="Center"
+							Style="{ StaticResource PrimaryActionButtonStyle }"
+							Clicked="OnBtnLightClicked" />
+					</StackLayout>
+				</Grid>
+
+				<!-- DARK THEME -->
+				<Grid
+					Grid.Row="1"
+					VerticalOptions="Center"
+					HeightRequest="220">
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition
+							Width="*" />
+						<ColumnDefinition
+							Width="*" />
+					</Grid.ColumnDefinitions>
+
+					<Image
+						Grid.Column="0"
+						VerticalOptions="Center"
+						HorizontalOptions="Center"
+						Source="dark_theme_thumbnail.png" />
+
+					<StackLayout
+						Grid.Column="1"
+						VerticalOptions="Center">
+
+						<Label
+							Text="{ artina:Translate StringDarkTheme }"
+							FontAttributes="Bold"
+							HorizontalTextAlignment="Center" />
+
+						<Label
+							Text="{ artina:Translate StringBatmanChoice } "
+							FontSize="14"
+							HorizontalTextAlignment="Center" />
+
+						<artina:Button
+							Text="{ artina:Translate StringApply }"
+							WidthRequest="100"
+							HorizontalOptions="Center"
+							Style="{ StaticResource PrimaryActionButtonStyle }"
+							Clicked="OnBtnDarkClicked" />
+					</StackLayout>
+				</Grid>
+
+				<!-- CORPORATE THEME -->
+				<Grid
+					Grid.Row="2"
+					VerticalOptions="Center"
+					HeightRequest="220">
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition
+							Width="*" />
+						<ColumnDefinition
+							Width="*" />
+					</Grid.ColumnDefinitions>
+
+					<Image
+						Grid.Column="0"
+						VerticalOptions="Center"
+						HorizontalOptions="Center"
+						Source="corporate_theme_thumbnail.png" />
+
+					<StackLayout
+						Grid.Column="1"
+						VerticalOptions="Center">
+
+						<Label
+							Text="{ artina:Translate StringEnterpriseTheme }"
+							FontAttributes="Bold"
+							HorizontalTextAlignment="Center" />
+
+						<Label
+							Text="{ artina:Translate StringImpressYourBoss }"
+							FontSize="14"
+							HorizontalTextAlignment="Center" />
+
+						<artina:Button
+							Text="{ artina:Translate StringApply }"
+							WidthRequest="100"
+							HorizontalOptions="Center"
+							Style="{ StaticResource PrimaryActionButtonStyle }"
+							Clicked="OnBtnEnterpriseClicked" />
+					</StackLayout>
+				</Grid>
+
+				<!-- CUSTOM THEME -->
+				<Grid
+					Grid.Row="3"
+					VerticalOptions="Center"
+					HeightRequest="220">
+					
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition
+							Width="*" />
+						<ColumnDefinition
+							Width="*" />
+					</Grid.ColumnDefinitions>
+
+					<Image
+						Grid.Column="0"
+						VerticalOptions="Center"
+						HorizontalOptions="Center"
+						Source="custom_theme_thumbnail.png" />
+
+					<StackLayout
+						Grid.Column="1"
+						VerticalOptions="Center">
+						
+						<Label
+							Text="{ artina:Translate StringCustom }"
+							FontAttributes="Bold"
+							HorizontalTextAlignment="Center" />
+						
+						<Label
+							Text="{ artina:Translate StringCallTheExperts }"
+							FontSize="14"
+							HorizontalTextAlignment="Center" />
+						
+						<artina:Button
+							Text="{ artina:Translate StringContact }"
+							WidthRequest="100"
+							HorizontalOptions="Center"
+							Style="{ StaticResource PrimaryActionButtonStyle }"
+							Clicked="OnBtnCustomClicked" />
+					</StackLayout>
+					
+				</Grid>
+			</Grid>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>

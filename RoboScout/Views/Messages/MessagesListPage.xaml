@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared" xmlns:local="clr-namespace:RoboScout;assembly=RoboScout"
+	x:Class="RoboScout.MessagesListPage"
+	Title="{ artina:Translate PageTitleMessages }"
+	BackgroundColor="{ DynamicResource BasePageColor }">
+
+	<StackLayout>
+		
+		<ListView
+			HasUnevenRows="true"
+			IsPullToRefreshEnabled="true"
+			Refreshing="OnRefreshing"
+			ItemTapped="OnItemTapped"
+			CachingStrategy="RecycleElement"
+			ItemsSource="{ Binding Messages }">
+				<ListView.RowHeight>
+					<OnIdiom
+					x:TypeArguments="x:Int32"
+					Phone="120"
+					Tablet="160" />
+				</ListView.RowHeight>
+
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<ViewCell>
+						<!-- 
+							MenuItem texts have Mode=OneTime to avoid that property to change due to the following problem:
+							https://bugzilla.xamarin.com/show_bug.cgi?id=57917
+						-->
+						<ViewCell.ContextActions>
+							<MenuItem
+								Clicked="OnMore"
+								Text="{artina:Translate Key=ButtonMore, Mode=OneTime}" />
+							<MenuItem
+								Clicked="OnDelete"
+								Text="{artina:Translate Key=ButtonDelete, Mode=OneTime}"
+								IsDestructive="True" />
+						</ViewCell.ContextActions>
+
+						<local:MessageItemTemplate />
+					</ViewCell>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
+
+	</StackLayout>
+</ContentPage>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="RoboScout.NotificationsListItemTemplate" xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared" xmlns:local="clr-namespace:RoboScout;assembly=RoboScout">
+
+	<ContentView.Resources>
+		<ResourceDictionary>
+			<local:NotificationIconConverter
+				x:Key="IconConverter" />
+
+			<local:NotificationColorConverter
+				x:Key="ColorConverter" />
+		</ResourceDictionary>
+	</ContentView.Resources>
+	
+	<ContentView.Content>
+		<!-- MAIN GRID -->
+		<Grid
+			Padding="20,0,15,0"
+			VerticalOptions="FillAndExpand"
+			ColumnSpacing="10"
+			RowSpacing="0">
+			
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition
+					Width="Auto" />
+				<ColumnDefinition
+					Width="*" />
+				<ColumnDefinition
+					Width="40" />
+
+			</Grid.ColumnDefinitions>
+			
+			<Grid.RowDefinitions>
+				<RowDefinition
+					Height="*" />
+				<RowDefinition
+					Height="*" />
+				<RowDefinition
+					Height="1" />
+			</Grid.RowDefinitions>
+
+			<!-- SHAPE BACKGROUND -->
+			<Label
+				Grid.Column="0"
+				Grid.Row="0"
+				Grid.RowSpan="2"
+				Style="{StaticResource NotificationItemTemplateShape}"
+				HorizontalTextAlignment="Center"
+				TextColor="{Binding Type, Converter={StaticResource ColorConverter}}"
+				VerticalOptions="Center"
+				HorizontalOptions="Center" />
+
+			<!-- ICON -->
+			<Label
+				Grid.Column="0"
+				Grid.Row="0"
+				Grid.RowSpan="2"
+				Text="{Binding Type, Converter={StaticResource IconConverter}}"
+				FontSize="{ artina:OnOrientationDouble
+					PortraitPhone=16,
+					LandscapePhone=16,
+					PortraitTablet=22,
+					LandscapeTablet=22 }"
+				Style="{StaticResource FontIcon}"
+				HorizontalTextAlignment="Center"
+				TextColor="{ DynamicResource InverseTextColor }"
+				VerticalOptions="Center"
+				HorizontalOptions="Center" />
+
+			<!-- NOTIFICATION -->
+			<Label
+				Grid.Column="1"
+				Grid.Row="0"
+				FontAttributes="Bold"
+				Text="{ Binding Title }"
+				HorizontalOptions="Start"
+				VerticalOptions="End" />
+
+			<Label
+				Grid.Column="1"
+				Grid.Row="1"
+				FontSize="14"
+				FontAttributes="Italic"
+				Text="{ Binding Description }"
+				HorizontalOptions="Start"
+				VerticalOptions="Start" />
+
+			<!-- CHEVRON -->
+			<Label
+				Grid.Column="2"
+				Grid.Row="0"
+				Grid.RowSpan="2"
+				WidthRequest="20"
+				HorizontalOptions="End"
+				TextColor="{ DynamicResource BaseTextColor }"
+				Style="{ DynamicResource CardsListItemTemplateChevronStyle }"
+				Margin="0" />
+		
+			<!-- BOTTOM SEPARATOR LINE -->
+			<BoxView
+				Margin="-20,0,-15,0"
+				Grid.Column="0"
+				Grid.ColumnSpan="3"
+				Grid.Row="2"
+				BackgroundColor="{ DynamicResource BaseTextColor }"
+				HeightRequest="0.5"
+				VerticalOptions="End"
+				Opacity=".5" />
+
+		</Grid>
+	</ContentView.Content>
+</ContentView>

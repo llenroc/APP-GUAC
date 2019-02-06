@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:lottie="clr-namespace:Lottie.Forms;assembly=Lottie.Forms" xmlns:local="clr-namespace:RoboScout;assembly=RoboScout" xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared"
+	x:Class="RoboScout.AnimationsPage"
+	Title="{ artina:Translate PageTitleAnimation }"
+	BackgroundImage="welcome_bg.jpg">
+
+	<ContentPage.Content>
+        <!-- MAIN CONTAINER-->
+        <Grid
+			HorizontalOptions="FillAndExpand"
+			VerticalOptions="FillAndExpand">
+
+            <!---BACKGROUND IMAGE -->
+            <Image
+				Style="{StaticResource WelcomeBackgroundImage}" />
+
+                
+    		<Grid
+				Padding="20">
+    			<Grid.RowDefinitions>
+    				<RowDefinition
+						Height="Auto" />
+    				<RowDefinition
+						Height="*" />
+    				<RowDefinition
+						Height="40" />
+    				<RowDefinition
+						Height="Auto" />
+    			</Grid.RowDefinitions>
+
+    			<StackLayout
+					Grid.Row="0"
+					Padding="40,20"
+					VerticalOptions="Center">
+    				
+    				<Label
+						Grid.Row="0"
+						HorizontalOptions="Center"
+						Text="{ x:Static local:GrialShapesFont.LogoLottie } "
+						FontSize="120"
+						TextColor="{ DynamicResource OverImageTextColor }"
+						FontFamily="{ StaticResource IconsFontFamily }" />
+    				
+    				<Label
+						Text="{ artina:Translate Key=LabelYesGrialSupportsLottie }"
+						TextColor="{ DynamicResource OverImageTextColor }"
+						VerticalTextAlignment="Center"
+						HorizontalTextAlignment="Center"
+						FontSize="16" />
+    				
+    			</StackLayout>
+
+    			
+    			<lottie:AnimationView
+					Grid.Row="1"
+					Animation="grial_animation.json"
+					Loop="True"
+					AutoPlay="True"
+					Speed="1"
+					VerticalOptions="FillAndExpand"
+					HorizontalOptions="FillAndExpand" />
+
+    			<Label
+					Grid.Row="2"
+					Text="{ artina:Translate LabelNeedCustomAnimations }"
+					TextColor="{ DynamicResource OverImageTextColor }"
+					VerticalTextAlignment="Center"
+					HorizontalTextAlignment="Center"
+					FontSize="16" />
+
+    			<artina:Button
+					Grid.Row="3"
+					Style="{StaticResource PrimaryActionButtonStyle}"
+					Text="{ artina:Translate StringGiveUsACall } "
+					VerticalOptions="End"
+					HorizontalOptions="FillAndExpand"
+					Clicked="OnBtnCustomClicked" />
+
+    		</Grid>
+
+        </Grid>
+				
+	</ContentPage.Content>
+	
+</ContentPage>

@@ -1,0 +1,1308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+
+	<!-- USERS -->
+	<data name="User1Name" xml:space="preserve">
+		<value>Pat Davies</value>
+	</data>
+	<data name="User2Name" xml:space="preserve">
+		<value>Janis Spector</value>
+	</data>
+	<data name="User3Name" xml:space="preserve">
+		<value>Regina Joplin</value>
+	</data>
+	<data name="User4Name" xml:space="preserve">
+		<value>Jaco Morrison</value>
+	</data>
+	<data name="User5Name" xml:space="preserve">
+		<value>Margaret Whites</value>
+	</data>
+	<data name="User6Name" xml:space="preserve">
+		<value>Skyler Harrisson</value>
+	</data>
+	<data name="User7Name" xml:space="preserve">
+		<value>Al Pastorius</value>
+	</data>
+	
+	<!-- POSTS -->
+	<data name="MainNewsBody" xml:space="preserve">
+		<value>Whether you are starting with Xamarin or if you are more experienced, Grial will boost your development time by giving all you need to start with the right foot. Forget about endless hours browsing for an specific solution in Xamarin Forms, we’ve done that for you. In connection with this appellative of 'Whalebone whales,' it is of great leap of yer happiness leadership colors. This is how we design a great article sample.</value>
+	</data>
+	<data name="Post1Title" xml:space="preserve">
+		<value>United by faith</value>
+	</data>
+	<data name="Post1SubTitle" xml:space="preserve">
+		<value>Friendship beyond everything</value>
+	</data>
+	<data name="Post1Body" xml:space="preserve">
+		<value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et aliquet nunc.
+Sed ultricies sed augue sit amet maximus. In vel tellus sed ipsum volutpat venenatis et sit amet diam. Suspendisse feugiat mollis nibh, in facilisis diam convallis sit amet.
+
+Maecenas lectus turpis, rhoncus et est at, lacinia placerat urna. Praesent malesuada consectetur justo, scelerisque fermentum enim lobortis ullamcorper. Duis commodo sit amet ligula vitae luctus. Nulla commodo ipsum a lorem efficitur luctus.</value>
+	</data>
+	<data name="PostSectionActuality" xml:space="preserve">
+		<value>ACTUALITY</value>
+	</data>
+	<data name="PostQuote" xml:space="preserve">
+		<value>Donec euismod nulla et sem lobortis ultrices. Cras id imperdiet metus. Sed congue luctus arcu.</value>
+	</data>
+	<data name="Post1When" xml:space="preserve">
+		<value>JAN 6, 2017</value>
+	</data>
+	<data name="Post2Title" xml:space="preserve">
+		<value>Olympic dream</value>
+	</data>
+	<data name="Post2SubTitle" xml:space="preserve">
+		<value>The way to the podium</value>
+	</data>
+	<data name="Post2When" xml:space="preserve">
+		<value>FEB 13, 2017</value>
+	</data>
+	<data name="Post2Body" xml:space="preserve">
+		<value>In connection with this appellative of "Whalebone whales," it is of great leap of yer happiness leadership colors. This is how we design a great article sample.</value>
+	</data>
+	<data name="PostSectionSports" xml:space="preserve">
+		<value>SPORTS</value>
+	</data>
+	<data name="Post3Title" xml:space="preserve">
+		<value>Wheels of fortune</value>
+	</data>
+	<data name="Post3SubTitle" xml:space="preserve">
+		<value>And the wind cries mary</value>
+	</data>
+	<data name="Post3When" xml:space="preserve">
+		<value>FEB 21, 2017</value>
+	</data>
+	<data name="PostSectionFreeTime" xml:space="preserve">
+		<value>FREE TIME</value>
+	</data>
+	<data name="Post4Title" xml:space="preserve">
+		<value>Last adventure</value>
+	</data>
+	<data name="Post4SubTitle" xml:space="preserve">
+		<value>The conquest of space</value>
+	</data>
+	<data name="Post4When" xml:space="preserve">
+		<value>MAR 9, 2017</value>
+	</data>
+	<data name="PostSectionScience" xml:space="preserve">
+		<value>SCIENCE</value>
+	</data>
+	<data name="Post5Title" xml:space="preserve">
+		<value>Sweet leaf</value>
+	</data>
+	<data name="Post5SubTitle" xml:space="preserve">
+		<value>The rainforest newest hope</value>
+	</data>
+	<data name="Post5When" xml:space="preserve">
+		<value>JUN 17, 2015</value>
+	</data>
+	<data name="PostSectionNature" xml:space="preserve">
+		<value>NATURE</value>
+	</data>
+	<data name="Post6Title" xml:space="preserve">
+		<value>Smoke kills</value>
+	</data>
+	<data name="Post6SubTitle" xml:space="preserve">
+		<value>The war against tabacco</value>
+	</data>
+	<data name="Post6When" xml:space="preserve">
+		<value>JUN 12, 2017</value>
+	</data>
+	<data name="PostSectionHealth" xml:space="preserve">
+		<value>HEALTH</value>
+	</data>
+	
+	<!-- MESSAGES -->
+	<data name="MessageDateMonthAndDay" xml:space="preserve">
+		<value>July 7</value>
+	</data>
+	<data name="MessageDateYesterday" xml:space="preserve">
+		<value>Yesterday</value>
+	</data>
+	<data name="MessageDateMinutes" xml:space="preserve">
+		<value>3 minutes ago</value>
+	</data>
+	<data name="Message1Title" xml:space="preserve">
+		<value>Hey check this out!</value>
+	</data>
+	<data name="Message2Title" xml:space="preserve">
+		<value>Artina is awesome...you"ll love it</value>
+	</data>
+	<data name="Message3Title" xml:space="preserve">
+		<value>Artina is awesome...you"ll love it</value>
+	</data>
+	<data name="Message4Title" xml:space="preserve">
+		<value>Artina is awesome...you"ll love it</value>
+	</data>
+	<data name="Message5Title" xml:space="preserve">
+		<value>Artina is awesome...you"ll love it</value>
+	</data>
+	<data name="Message6Title" xml:space="preserve">
+		<value>Artina is awesome...you"ll love it</value>
+	</data>
+	<data name="Message7Title" xml:space="preserve">
+		<value>Artina is awesome...you"ll love it</value>
+	</data>
+	<data name="MessageBody" xml:space="preserve">
+		<value>In connection with this appellative of "Whalebone whales," it is of great leap of yer happiness leadership colors.</value>
+	</data>
+	
+	<!-- CHAT TIMELINE -->
+	<data name="Chat1Body" xml:space="preserve">
+		<value>Hey buddy :), what's up? I"m currently working on this amazing stuff called Grial. Have you heard about it? You shoud give it a try....it really rocks!!!!!.</value>
+	</data>
+	<data name="Chat2Body" xml:space="preserve">
+		<value>You should give it a try!</value>
+	</data>
+	<data name="Chat3Body" xml:space="preserve">
+		<value>Wooow! Didn"t know this exist!! Really cool stuff!</value>
+	</data>
+	<data name="Chat4Body" xml:space="preserve">
+		<value>I was wondering if something like this existed. This will save hundred of hours. I rather be skateboarding with my friends instead of compiling every little visual change. Thanks for sharing!</value>
+	</data>
+	<data name="Chat5Body" xml:space="preserve">
+		<value>No problem! I hope you can find it useful. It really makes the difference to me.</value>
+	</data>
+	<data name="Chat6Body" xml:space="preserve">
+		<value>Ok thanks and thanks again!! This is really awesome</value>
+	</data>
+	<data name="Chat7Body" xml:space="preserve">
+		<value>Indeed.</value>
+	</data>
+	<data name="Chat8Body" xml:space="preserve">
+		<value>C u later tonight at Gillian Japi party, right?</value>
+	</data>
+	<data name="Chat9Body" xml:space="preserve">
+		<value>For sure! See you later :)</value>
+	</data>
+	<data name="Chat10Body" xml:space="preserve">
+		<value>Hey buddy :), what's up? I"m currently working on this amazing stuff called Grial. Have you heard about it? You shoud give it a try....it really rocks!!!!!.</value>
+	</data>
+	
+	<!-- PRODS -->
+	<data name="Prod1Description" xml:space="preserve">
+		<value>Classic 90"s Skateboarding style shirt. Feel like Pat Duffy or even flow like Edie from Pearl Jam. With that casual grunge style this is the shirt you need.</value>
+	</data>
+	<data name="Prod1Name" xml:space="preserve">
+		<value>Flannel Shirt</value>
+	</data>
+	<data name="Prod2Description" xml:space="preserve">
+		<value>Top gun in every gentelman closet. This leather jacket will make you feel like Tom Cruise without that crazy look. Be a good boy make mom proud.</value>
+	</data>
+	<data name="Prod2Name" xml:space="preserve">
+		<value>Bomber Jacket</value>
+	</data>
+	<data name="Prod3Description" xml:space="preserve">
+		<value>Get that instant normal look that everybody wants. Blend with the humans, it will make you feel less strange. You know you are not normal</value>
+	</data>
+	<data name="Prod3Name" xml:space="preserve">
+		<value>Classic Black</value>
+	</data>
+	<data name="Prod4Description" xml:space="preserve">
+		<value>Our newest swim tees with a much looser fit than traditional rash guard for yet more comfort and versatility, is well known for great fit, function and colors.</value>
+	</data>
+	<data name="Prod4Name" xml:space="preserve">
+		<value>Flowers Shirt</value>
+	</data>
+	<data name="Prod5Description" xml:space="preserve">
+		<value>Not just another common shirt. Upgrade your sexappeal looking good. Rock and roll never gets old. Eric Burdon wears a shirt like this one when he wants to look good.</value>
+	</data>
+	<data name="Prod5Name" xml:space="preserve">
+		<value>Sccotish Shirt</value>
+	</data>
+	<data name="Prod6Description" xml:space="preserve">
+		<value>Let"s face it, this shirt does not look good on anybody. But how many times do you buy something that you don"t need? Buy this one feel happy for a minute then dismiss it.</value>
+	</data>
+	<data name="Prod6Name" xml:space="preserve">
+		<value>Silk Shirt</value>
+	</data>
+	<data name="Prod7Description" xml:space="preserve">
+		<value>Do you have a meeting? Do you want to look good reliable and confident? This is the shirt that you need for those horrible meetings trying to find someone that lend you some money.</value>
+	</data>
+	<data name="Prod7Name" xml:space="preserve">
+		<value>Entrepreneur Shirt</value>
+	</data>
+	<data name="Prod8Description" xml:space="preserve">
+		<value>Now is your time. Wanna be the alpha male of your local bar? Common! Get this shirt now and feel like a sexy Rambo on your next date. Remember that girls loves peacefull soliders.</value>
+	</data>
+	<data name="Prod8Name" xml:space="preserve">
+		<value>Soldier Shirt</value>
+	</data>
+	
+	<!-- TIMELINE EVENT -->
+	<data name="TimelineEvent1Title" xml:space="preserve">
+		<value>Eric Douglas has a new photo</value> 
+	</data>
+	<data name="TimelineEvent1Description" xml:space="preserve">
+		<value>Eric uploaded a more recently pic from him.</value>
+	</data>
+	<data name="TimelineEvent1When" xml:space="preserve">
+		<value>JUN 29, 2016</value>
+	</data>
+	<data name="TimelineEvent2Title" xml:space="preserve">
+		<value>Sam joined a new group</value>
+	</data>
+	<data name="TimelineEvent2Description" xml:space="preserve">
+		<value>Sam joined the Marketing and Affiliates group</value>
+	</data>
+	<data name="TimelineEvent2When" xml:space="preserve">
+		<value>JUN 28, 2016</value>
+	</data>
+	<data name="TimelineEvent3Title" xml:space="preserve">
+		<value>You have a new follower!</value>
+	</data>
+	<data name="TimelineEvent3Description" xml:space="preserve">
+		<value>Tony is now folowing you.</value>
+	</data>
+	<data name="TimelineEvent3When" xml:space="preserve">
+		<value>JUN 17, 2016</value>
+	</data>
+	<data name="TimelineEvent4Title" xml:space="preserve">
+		<value>You have a new follower!</value>
+	</data>
+	<data name="TimelineEvent4Description" xml:space="preserve">
+		<value>Ingrid Davies is now followig you.</value>
+	</data>
+	<data name="TimelineEvent4When" xml:space="preserve">
+		<value>JUN 17, 2016</value>
+	</data>
+	<data name="TimelineEvent5Title" xml:space="preserve">
+		<value>You have a new like!</value>
+	</data>
+	<data name="TimelineEvent5Description" xml:space="preserve">
+		<value>Emily liked your last post!</value>
+	</data>
+	<data name="TimelineEvent5When" xml:space="preserve">
+		<value>JUN 14, 2016</value>
+	</data>	
+	<data name="TimelineEvent6Title" xml:space="preserve">
+		<value>Jaco joined a new group!</value>
+	</data>
+	<data name="TimelineEvent6Description" xml:space="preserve">
+		<value>Jaco Davies has joined the Internet of Things group. He is now the member number 100 of this group.</value>
+	</data>
+	<data name="TimelineEvent6When" xml:space="preserve">
+		<value>JUN 14, 2016</value>
+	</data>
+	<data name="TimelineEvent7Title" xml:space="preserve">
+		<value>Jaco added a new comment to "Internet of Things" group</value>
+	</data>
+	<data name="TimelineEvent7Description" xml:space="preserve">
+		<value>Hi guys, thanks for allow me be part of this great group. I would like to suggest...</value>
+	</data>
+	<data name="TimelineEvent7When" xml:space="preserve">
+		<value>JUN 14, 2016</value>
+	</data>
+	<data name="TimelineEvent8Title" xml:space="preserve">
+		<value>Ingrid have a new like!</value>
+	</data>
+	<data name="TimelineEvent8Description" xml:space="preserve">
+		<value>Jaco liked your last post.</value>
+	</data>
+	<data name="TimelineEvent8When" xml:space="preserve">
+		<value>JUN 14, 2016</value>
+	</data>
+	<data name="TimelineEvent9Title" xml:space="preserve">
+		<value>Eric Douglas joined a new group!</value>
+	</data>
+	<data name="TimelineEvent9Description" xml:space="preserve">
+		<value>Eric has joined the Jazz and Blues group. He is now the member number 207 of this group.</value>
+	</data>
+	<data name="TimelineEvent9When" xml:space="preserve">
+		<value>JUN 12, 2016</value>
+	</data>
+	<data name="TimelineEvent10Title" xml:space="preserve">
+		<value>You have a new like!</value>
+	</data>
+	<data name="TimelineEvent10Description" xml:space="preserve">
+		<value>Emily liked your last post!</value>
+	</data>
+	<data name="TimelineEvent10When" xml:space="preserve">
+		<value>JUN 12, 2016</value>
+	</data>
+	<data name="TimelineEvent11Title" xml:space="preserve">
+		<value>You have a new like!</value>
+	</data>
+	<data name="TimelineEvent11Description" xml:space="preserve">
+		<value>Sam liked your last post!</value>
+	</data>
+	<data name="TimelineEvent11When" xml:space="preserve">
+		<value>JUN 12, 2016</value>
+	</data>
+	<data name="TimelineEvent12Title" xml:space="preserve">
+		<value>Sam joined a new group!</value>
+	</data>
+	<data name="TimelineEvent12Description" xml:space="preserve">
+		<value>Sam has joined the Avant Garde group. She is now the member number 99 of this group.</value>
+	</data>
+	<data name="TimelineEvent12When" xml:space="preserve">
+		<value>JUN 12, 2016</value>
+	</data>
+	<data name="TimelineEvent13Title" xml:space="preserve">
+		<value>Sam joined a new group!</value>
+	</data>
+	<data name="TimelineEvent13Description" xml:space="preserve">
+		<value>Sam has joined the Bon Apetite! group. She is now the member number 487 of this group.</value>
+	</data>
+	<data name="TimelineEvent13When" xml:space="preserve">
+		<value>JUN 12, 2016</value>
+	</data>
+	<data name="TimelineEvent14Title" xml:space="preserve">
+		<value>Ingrid have a new like!</value>
+	</data>
+	<data name="TimelineEvent14Description" xml:space="preserve">
+		<value>Jaco liked your last post.</value>
+	</data>
+	<data name="TimelineEvent14When" xml:space="preserve">
+		<value>JUN 11, 2016</value>
+	</data>
+	
+	<!-- DOCUMENT TIMELINE -->
+	<data name="DocumentTimelineEvent1Title" xml:space="preserve">
+		<value>Document Added</value>
+	</data>
+	<data name="DocumentTimelineEvent1Author" xml:space="preserve">
+		<value>Andrew Reynolds</value>
+	</data>
+	<data name="DocumentTimelineEvent1When" xml:space="preserve">
+		<value>Jul 7</value>
+	</data>
+	<data name="DocumentTimelineEvent2Title" xml:space="preserve">
+		<value>Document Edited</value>
+	</data>
+	<data name="DocumentTimelineEvent2Author" xml:space="preserve">
+		<value>Tony Kamo</value>
+	</data>
+	<data name="DocumentTimelineEvent2When" xml:space="preserve">
+		<value>Jul 7</value>
+	</data>
+	<data name="DocumentTimelineEvent3Title" xml:space="preserve">
+		<value>Document Edited</value>
+	</data>
+	<data name="DocumentTimelineEvent3Author" xml:space="preserve">
+		<value>Elissa Steamer</value>
+	</data>
+	<data name="DocumentTimelineEvent3When" xml:space="preserve">
+		<value>Jul 8</value>
+	</data>
+	<data name="DocumentTimelineEvent4Title" xml:space="preserve">
+		<value>I've added comments on policy section. Need to discuss about this first.</value>
+	</data>
+	<data name="DocumentTimelineEvent4Author" xml:space="preserve">
+		<value>Gershon Mosley</value>
+	</data>
+	<data name="DocumentTimelineEvent4When" xml:space="preserve">
+		<value>Jul 9</value>
+	</data>
+	<data name="DocumentTimelineEvent5Title" xml:space="preserve">
+		<value>Looks great!</value>
+	</data>
+	<data name="DocumentTimelineEvent5Author" xml:space="preserve">
+		<value>Ingrid Davies</value>
+	</data>
+	<data name="DocumentTimelineEvent5When" xml:space="preserve">
+		<value>Jul 9</value>
+	</data>
+	<data name="DocumentTimelineEvent6Title" xml:space="preserve">
+		<value>Approved!</value>
+	</data>
+	<data name="DocumentTimelineEvent6Author" xml:space="preserve">
+		<value>Patrick Rampsey</value>
+	</data>
+	<data name="DocumentTimelineEvent6When" xml:space="preserve">
+		<value>Jul 9</value>
+	</data>
+	<data name="DocumentTimelineEvent7Title" xml:space="preserve">
+		<value>Document signed</value>
+	</data>
+	<data name="DocumentTimelineEvent7Author" xml:space="preserve">
+		<value>Ingrid Davies</value>
+	</data>
+	<data name="DocumentTimelineEvent7When" xml:space="preserve">
+		<value>Jul 11</value>
+	</data>
+	<data name="DocumentTimelineEvent8Title" xml:space="preserve">
+		<value>Document Added</value>
+	</data>
+	<data name="DocumentTimelineEvent8Author" xml:space="preserve">
+		<value>Chris Duff</value>
+	</data>
+	<data name="DocumentTimelineEvent8When" xml:space="preserve">
+		<value>Jul 7</value>
+	</data>
+	<data name="DocumentTimelineEvent9Title" xml:space="preserve">
+		<value>Document Edited</value>
+	</data>
+	<data name="DocumentTimelineEvent9Author" xml:space="preserve">
+		<value>Tony Kamo</value>
+	</data>
+	<data name="DocumentTimelineEvent9When" xml:space="preserve">
+		<value>Aug 7</value>
+	</data>
+	<data name="DocumentTimelineEvent10Title" xml:space="preserve">
+		<value>Document Added</value>
+	</data>
+	<data name="DocumentTimelineEvent10Author" xml:space="preserve">
+		<value>Chris Duff</value>
+	</data>
+	<data name="DocumentTimelineEvent10When" xml:space="preserve">
+		<value>Jul 7</value>
+	</data>
+	<data name="DocumentTimelineEvent11Title" xml:space="preserve">
+		<value>Document Edited</value>
+	</data>
+	<data name="DocumentTimelineEvent11Author" xml:space="preserve">
+		<value>Tony Kamo</value>
+	</data>
+	<data name="DocumentTimelineEvent11When" xml:space="preserve">
+		<value>Jul 7</value>
+	</data>
+	
+	<!-- MOVIES -->
+	<data name="HighlightMovieTitle" xml:space="preserve">
+		<value>The Wolf of Wall Street (2013)</value>
+	</data>
+	<data name="HighlightMovieDescription" xml:space="preserve">
+		<value>Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.</value>
+	</data>
+	<data name="MovieSection1Title" xml:space="preserve">
+		<value>Actor of the Month</value>
+	</data>
+	<data name="MovieSection1Movie1Title" xml:space="preserve">
+		<value>Inception</value>
+	</data>
+	<data name="MovieSection1Movie1Seasons" xml:space="preserve">
+		<value>2010</value>
+	</data>
+	<data name="MovieSection1Movie1Director" xml:space="preserve">
+		<value>Christopher Nolan</value>
+	</data>
+	<data name="MovieSection1Movie1Plot" xml:space="preserve">
+		<value>A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO."</value>
+	</data>
+	<data name="MovieSection1Movie1Cast" xml:space="preserve">
+		<value>Leonardo DiCaprio,Joseph Gordon-Levitt,Ellen Page</value>
+	</data>
+	<data name="MovieSection1Movie2Title" xml:space="preserve">
+		<value>Django Unchained</value>
+	</data>
+	<data name="MovieSection1Movie2Seasons" xml:space="preserve">
+		<value>2012</value>
+	</data>
+	<data name="MovieSection1Movie2Director" xml:space="preserve">
+		<value>Quentin Tarantino</value>
+	</data>
+	<data name="MovieSection1Movie2Plot" xml:space="preserve">
+		<value>With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.</value>
+	</data>
+	<data name="MovieSection1Movie2Cast" xml:space="preserve">
+		<value>Jamie Foxx,Christoph Waltz,Leonardo DiCaprio</value>
+	</data>
+	<data name="MovieSection1Movie3Title" xml:space="preserve">
+		<value>The Revenant</value>
+	</data>
+	<data name="MovieSection1Movie3Seasons" xml:space="preserve">
+		<value>2015</value>
+	</data>
+	<data name="MovieSection1Movie3Director" xml:space="preserve">
+		<value>Alejandro G. Iñárritu</value>
+	</data>
+	<data name="MovieSection1Movie3Plot" xml:space="preserve">
+		<value>A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team.</value>
+	</data>
+	<data name="MovieSection1Movie3Cast" xml:space="preserve">
+		<value>Leonardo DiCaprio,Tom Hardy,Will Poulter</value>
+	</data>
+	<data name="MovieSection1Movie4Title" xml:space="preserve">
+		<value>The Departed</value>
+	</data>
+	<data name="MovieSection1Movie4Seasons" xml:space="preserve">
+		<value>2006</value>
+	</data>
+	<data name="MovieSection1Movie4Director" xml:space="preserve">
+		<value>Martin Scorsese</value>
+	</data>
+	<data name="MovieSection1Movie4Plot" xml:space="preserve">
+		<value>An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.</value>
+	</data>
+	<data name="MovieSection1Movie4Cast" xml:space="preserve">
+		<value>Leonardo DiCaprio,Matt Damon,Jack Nicholson</value>
+	</data>
+	<data name="MovieSection1Movie5Title" xml:space="preserve">
+		<value>Titanic</value>
+	</data>
+	<data name="MovieSection1Movie5Seasons" xml:space="preserve">
+		<value>1997</value>
+	</data>
+	<data name="MovieSection1Movie5Director" xml:space="preserve">
+		<value>James Cameron</value>
+	</data>
+	<data name="MovieSection1Movie5Plot" xml:space="preserve">
+		<value>A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.</value>
+	</data>
+	<data name="MovieSection1Movie5Cast" xml:space="preserve">
+		<value>Leonardo DiCaprio,Kate Winslet,Billy Zane</value>
+	</data>
+	<data name="MovieSection1Movie6Title" xml:space="preserve">
+		<value>The Audition</value>
+	</data>
+	<data name="MovieSection1Movie6Seasons" xml:space="preserve">
+		<value>2015</value>
+	</data>
+	<data name="MovieSection1Movie6Director" xml:space="preserve">
+		<value>Martin Scorsese</value>
+	</data>
+	<data name="MovieSection1Movie6Plot" xml:space="preserve">
+		<value>A short film promoting the opening of Melco-Crown's movie-themed resort and casino in Macau.</value>
+	</data>
+	<data name="MovieSection1Movie6Cast" xml:space="preserve">
+		<value>Robert De Niro,Leonardo DiCaprio,Brad Pitt</value>
+	</data>
+	<data name="MovieSection1Movie7Title" xml:space="preserve">
+		<value>Gatsby</value>
+	</data>
+	<data name="MovieSection1Movie7Seasons" xml:space="preserve">
+		<value>2013</value>
+	</data>
+	<data name="MovieSection1Movie7Director" xml:space="preserve">
+		<value>Baz Luhrmann</value>
+	</data>
+	<data name="MovieSection1Movie7Plot" xml:space="preserve">
+		<value>A writer and wall street trader, Nick, finds himself drawn to the past and lifestyle of his millionaire neighbor, Jay Gatsby.</value>
+	</data>
+	<data name="MovieSection1Movie7Cast" xml:space="preserve">
+		<value>Leonardo DiCaprio,Carey Mulligan,Joel Edgerton</value>
+	</data>
+	<data name="MovieSection1Movie8Title" xml:space="preserve">
+		<value>Shutter Island</value>
+	</data>
+	<data name="MovieSection1Movie8Seasons" xml:space="preserve">
+		<value>2010</value>
+	</data>
+	<data name="MovieSection1Movie8Director" xml:space="preserve">
+		<value>Martin Scorsese</value>
+	</data>
+	<data name="MovieSection1Movie8Plot" xml:space="preserve">
+		<value>In 1954, a U.S. marshal investigates the disappearance of a murderess who escaped from a hospital for the criminally insane.</value>
+	</data>
+	<data name="MovieSection1Movie8Cast" xml:space="preserve">
+		<value>Leonardo DiCaprio,Emily Mortimer,Mark Ruffalo</value>
+	</data>
+	<data name="MovieSection1Movie9Title" xml:space="preserve">
+		<value>Blood Diamond</value>
+	</data>
+	<data name="MovieSection1Movie9Seasons" xml:space="preserve">
+		<value>2016</value>
+	</data>
+	<data name="MovieSection1Movie9Director" xml:space="preserve">
+		<value>Edward Zwick</value>
+	</data>
+	<data name="MovieSection1Movie9Plot" xml:space="preserve">
+		<value>A fisherman, a smuggler, and a syndicate of businessmen match wits over the possession of a priceless diamond.</value>
+	</data>
+	<data name="MovieSection1Movie9Cast" xml:space="preserve">
+		<value>Leonardo DiCaprio,Djimon Hounsou,Jennifer Connelly</value>
+	</data>
+	<data name="MovieSection1Movie10Title" xml:space="preserve">
+		<value>Catch Me If You Can</value>
+	</data>
+	<data name="MovieSection1Movie10Seasons" xml:space="preserve">
+		<value>2002</value>
+	</data>
+	<data name="MovieSection1Movie10Director" xml:space="preserve">
+		<value>Steven Spielberg</value>
+	</data>
+	<data name="MovieSection1Movie10Plot" xml:space="preserve">
+		<value>The true story of Frank Abagnale Jr. who, before his 19th birthday, successfully conned millions of dollars' worth of checks as a Pan Am pilot, doctor, and legal prosecutor.</value>
+	</data>
+	<data name="MovieSection1Movie10Cast" xml:space="preserve">
+		<value>Leonardo DiCaprio,Tom Hanks,Christopher Walken</value>
+	</data>
+	<data name="MovieSection2Title" xml:space="preserve">
+		<value>Latest Best Picture-Winning Titles</value>
+	</data>
+	<data name="MovieSection2Movie1Title" xml:space="preserve">
+		<value>Spotlight</value>
+	</data>
+	<data name="MovieSection2Movie1Seasons" xml:space="preserve">
+		<value>2015</value>
+	</data>
+	<data name="MovieSection2Movie1Director" xml:space="preserve">
+		<value>Tom McCarthy</value>
+	</data>
+	<data name="MovieSection2Movie1Plot" xml:space="preserve">
+		<value>The true story of how the Boston Globe uncovered the massive scandal of child molestation and cover-up within the local Catholic Archdiocese, shaking the entire Catholic Church to its core.</value>
+	</data>
+	<data name="MovieSection2Movie1Cast" xml:space="preserve">
+		<value>Mark Ruffalo,Michael Keaton,Rachel McAdams</value>
+	</data>
+	<data name="MovieSection2Movie2Title" xml:space="preserve">
+		<value>Birdman</value>
+	</data>
+	<data name="MovieSection2Movie2Seasons" xml:space="preserve">
+		<value>2014</value>
+	</data>
+	<data name="MovieSection2Movie2Director" xml:space="preserve">
+		<value>Alejandro G. Iñárritu</value>
+	</data>
+	<data name="MovieSection2Movie2Plot" xml:space="preserve">
+		<value>Illustrated upon the progress of his latest Broadway play, a former popular actor's struggle to cope with his current life as a wasted actor is shown.</value>
+	</data>
+	<data name="MovieSection2Movie2Cast" xml:space="preserve">
+		<value>Alejandro G. Iñárritu,Nicolás Giacobone</value>
+	</data>
+	<data name="MovieSection2Movie3Title" xml:space="preserve">
+		<value>12 Years As A Slave</value>
+	</data>
+	<data name="MovieSection2Movie3Seasons" xml:space="preserve">
+		<value>2013</value>
+	</data>
+	<data name="MovieSection2Movie3Director" xml:space="preserve">
+		<value>Steve McQueen</value>
+	</data>
+	<data name="MovieSection2Movie3Plot" xml:space="preserve">
+		<value>In the antebellum United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery.</value>
+	</data>
+	<data name="MovieSection2Movie3Cast" xml:space="preserve">
+		<value>Chiwetel Ejiofor,Michael Kenneth Williams,Michael Fassbender</value>
+	</data>
+	<data name="MovieSection2Movie4Title" xml:space="preserve">
+		<value>Argo</value>
+	</data>
+	<data name="MovieSection2Movie4Seasons" xml:space="preserve">
+		<value>2012</value>
+	</data>
+	<data name="MovieSection2Movie4Director" xml:space="preserve">
+		<value>Ben Affleck</value>
+	</data>
+	<data name="MovieSection2Movie4Plot" xml:space="preserve">
+		<value>Acting under the cover of a Hollywood producer scouting a location for a science fiction film, a CIA agent launches a dangerous operation to rescue six Americans in Tehran during the U.S. hostage crisis in Iran in 1980.</value>
+	</data>
+	<data name="MovieSection2Movie4Cast" xml:space="preserve">
+		<value>Ben Affleck,Bryan Cranston,John Goodman</value>
+	</data>
+	<data name="MovieSection2Movie5Title" xml:space="preserve">
+		<value>The Artist</value>
+	</data>
+	<data name="MovieSection2Movie5Seasons" xml:space="preserve">
+		<value>2010</value>
+	</data>
+	<data name="MovieSection2Movie5Director" xml:space="preserve">
+		<value>Michel Hazanavicius</value>
+	</data>
+	<data name="MovieSection2Movie5Plot" xml:space="preserve">
+		<value>A silent movie star meets a young dancer, but the arrival of talking pictures sends their careers in opposite directions.</value>
+	</data>
+	<data name="MovieSection2Movie5Cast" xml:space="preserve">
+		<value>Jean Dujardin,Bérénice Bejo,John Goodman</value>
+	</data>
+	<data name="MovieSection2Movie6Title" xml:space="preserve">
+		<value>The King's Speech</value>
+	</data>
+	<data name="MovieSection2Movie6Seasons" xml:space="preserve">
+		<value>2010</value>
+	</data>
+	<data name="MovieSection2Movie6Director" xml:space="preserve">
+		<value>Tom Hooper</value>
+	</data>
+	<data name="MovieSection2Movie6Plot" xml:space="preserve">
+		<value>The story of King George VI of the United Kingdom of Great Britain and Northern Ireland, his impromptu ascension to the throne and the speech therapist who helped the unsure monarch become worthy of it.</value>
+	</data>
+	<data name="MovieSection2Movie6Cast" xml:space="preserve">
+		<value>Colin Firth,Geoffrey Rush,Helena Bonham Carter</value>
+	</data>
+	<data name="MovieSection2Movie7Title" xml:space="preserve">
+		<value>The Hurt Locker</value>
+	</data>
+	<data name="MovieSection2Movie7Seasons" xml:space="preserve">
+		<value>2008</value>
+	</data>
+	<data name="MovieSection2Movie7Director" xml:space="preserve">
+		<value>Kathryn Bigelow</value>
+	</data>
+	<data name="MovieSection2Movie7Plot" xml:space="preserve">
+		<value>During the Iraq War, a Sergeant recently assigned to an army bomb squad is put at odds with his squad mates due to his maverick way of handling his work.</value>
+	</data>
+	<data name="MovieSection2Movie7Cast" xml:space="preserve">
+		<value>Jeremy Renner,Anthony Mackie,Brian Geraghty,Guy Pearce,Sergeant Matt Thompson,Ralph Fiennes</value>
+	</data>
+	<data name="MovieSection2Movie8Title" xml:space="preserve">
+		<value>Slumdog Millionaire</value>
+	</data>
+	<data name="MovieSection2Movie8Seasons" xml:space="preserve">
+		<value>2008</value>
+	</data>
+	<data name="MovieSection2Movie8Director" xml:space="preserve">
+		<value>Danny Boyle, Loveleen Tandan</value>
+	</data>
+	<data name="MovieSection2Movie8Plot" xml:space="preserve">
+		<value>A Mumbai teen reflects on his upbringing in the slums when he is accused of cheating on the Indian Version of "Who Wants to be a Millionaire?"</value>
+	</data>
+	<data name="MovieSection2Movie8Cast" xml:space="preserve">
+		<value>Dev Patel,Freida Pinto,Saurabh Shukla</value>
+	</data>
+	<data name="MovieSection2Movie9Title" xml:space="preserve">
+		<value>No Country For Old Men</value>
+	</data>
+	<data name="MovieSection2Movie9Seasons" xml:space="preserve">
+		<value>2007</value>
+	</data>
+	<data name="MovieSection2Movie9Director" xml:space="preserve">
+		<value>Ethan Coen, Joel Coen</value>
+	</data>
+	<data name="MovieSection2Movie9Plot" xml:space="preserve">
+		<value>Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande.</value>
+	</data>
+	<data name="MovieSection2Movie9Cast" xml:space="preserve">
+		<value>Tommy Lee Jones,Javier Bardem,Josh Brolin</value>
+	</data>
+	<data name="MovieSection2Movie10Title" xml:space="preserve">
+		<value>The Departed</value>
+	</data>
+	<data name="MovieSection2Movie10Seasons" xml:space="preserve">
+		<value>2006</value>
+	</data>
+	<data name="MovieSection2Movie10Director" xml:space="preserve">
+		<value>Martin Scorsese</value>
+	</data>
+	<data name="MovieSection2Movie10Plot" xml:space="preserve">
+		<value>An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.</value>
+	</data>
+	<data name="MovieSection2Movie10Cast" xml:space="preserve">
+		<value>Leonardo DiCaprio,Matt Damon,Jack Nicholson</value>
+	</data>
+	<data name="MovieSection3Title" xml:space="preserve">
+		<value>Sci-Fi Classic Titles</value>
+	</data>	
+	<data name="MovieSection3Movie1Title" xml:space="preserve">
+		<value>Blade Runner</value>
+	</data>
+	<data name="MovieSection3Movie1Seasons" xml:space="preserve">
+		<value>1982</value>
+	</data>
+	<data name="MovieSection3Movie1Director" xml:space="preserve">
+		<value>Ridley Scott</value>
+	</data>
+	<data name="MovieSection3Movie1Plot" xml:space="preserve">
+		<value>A blade runner must pursue and try to terminate four replicants who stole a ship in space and have returned to Earth to find their creator.</value>
+	</data>
+	<data name="MovieSection3Movie1Cast" xml:space="preserve">
+		<value>Harrison Ford,Rutger Hauer,Sean Young</value>
+	</data>
+	<data name="MovieSection3Movie2Title" xml:space="preserve">
+		<value>Back to the Future</value>
+	</data>
+	<data name="MovieSection3Movie2Seasons" xml:space="preserve">
+		<value>1985</value>
+	</data>
+	<data name="MovieSection3Movie2Director" xml:space="preserve">
+		<value>Robert Zemeckis</value>
+	</data>
+	<data name="MovieSection3Movie2Plot" xml:space="preserve">
+		<value>Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.</value>
+	</data>
+	<data name="MovieSection3Movie2Cast" xml:space="preserve">
+		<value>Michael J. Fox,Christopher Lloyd,Lea Thompson</value>
+	</data>
+	<data name="MovieSection3Movie3Title" xml:space="preserve">
+		<value>Back to the Future Part II</value>
+	</data>
+	<data name="MovieSection3Movie3Seasons" xml:space="preserve">
+		<value>1989</value>
+	</data>
+	<data name="MovieSection3Movie3Director" xml:space="preserve">
+		<value>Robert Zemeckis</value>
+	</data>
+	<data name="MovieSection3Movie3Plot" xml:space="preserve">
+		<value>After visiting 2015, Marty McFly must repeat his visit to 1955 to prevent disastrous changes to 1985...without interfering with his first trip.</value>
+	</data>
+	<data name="MovieSection3Movie3Cast" xml:space="preserve">
+		<value>Michael J. Fox,Christopher Lloyd,Lea Thompson</value>
+	</data>
+	<data name="MovieSection3Movie4Title" xml:space="preserve">
+		<value>Back to the Future Part III</value>
+	</data>
+	<data name="MovieSection3Movie4Seasons" xml:space="preserve">
+		<value>1990</value>
+	</data>
+	<data name="MovieSection3Movie4Director" xml:space="preserve">
+		<value>Robert Zemeckis</value>
+	</data>
+	<data name="MovieSection3Movie4Plot" xml:space="preserve">
+		<value>Enjoying a peaceable existence in 1885, Doctor Emmet Brown is about to be killed by Buford "Mad Dog" Tannen. Marty McFly travels back in time to save his friend.</value>
+	</data>
+	<data name="MovieSection3Movie4Cast" xml:space="preserve">
+		<value>Michael J. Fox,Christopher Lloyd,Mary Steenburgen</value>
+	</data>
+	<data name="MovieSection3Movie5Title" xml:space="preserve">
+		<value>The Terminator</value>
+	</data>
+	<data name="MovieSection3Movie5Seasons" xml:space="preserve">
+		<value>2010-2014</value>
+	</data>
+	<data name="MovieSection3Movie5Director" xml:space="preserve">
+		<value>James Cameron</value>
+	</data>
+	<data name="MovieSection3Movie5Plot" xml:space="preserve">
+		<value>A human-looking indestructible cyborg is sent from 2029 to 1984 to assassinate a waitress, whose unborn son will lead humanity in a war against the machines, while a soldier from that war is sent to protect her at all costs.</value>
+	</data>
+	<data name="MovieSection3Movie5Cast" xml:space="preserve">
+		<value>Arnold Schwarzenegger,Linda Hamilton,Michael Biehn</value>
+	</data>
+	<data name="MovieSection3Movie6Title" xml:space="preserve">
+		<value>Terminator 2: Judgment Day</value>
+	</data>
+	<data name="MovieSection3Movie6Seasons" xml:space="preserve">
+		<value>1984</value>
+	</data>
+	<data name="MovieSection3Movie6Director" xml:space="preserve">
+		<value>James Cameron</value>
+	</data>
+	<data name="MovieSection3Movie6Plot" xml:space="preserve">
+		<value>A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her ten year old son, John Connor, from a more advanced cyborg.</value>
+	</data>
+	<data name="MovieSection3Movie6Cast" xml:space="preserve">
+		<value>Arnold Schwarzenegger,Linda Hamilton,Michael Biehn</value>
+	</data>
+	<data name="MovieSection4Title" xml:space="preserve">
+		<value>Sci-Fi Titles</value>
+	</data>		
+	<data name="MovieSection4Movie1Title" xml:space="preserve">
+		<value>Mad Max: Fury Road</value>
+	</data>
+	<data name="MovieSection4Movie1Seasons" xml:space="preserve">
+		<value>2015</value>
+	</data>
+	<data name="MovieSection4Movie1Director" xml:space="preserve">
+		<value>George Miller</value>
+	</data>
+	<data name="MovieSection4Movie1Plot" xml:space="preserve">
+		<value>A woman rebels against a tyrannical ruler in postapocalyptic Australia in search for her home-land with the help of a group of female prisoners, a psychotic worshipper, and a drifter named Max.</value>
+	</data>
+	<data name="MovieSection4Movie1Cast" xml:space="preserve">
+		<value>Tom Hardy,Charlize Theron,Nicholas Hoult</value>
+	</data>
+	<data name="MovieSection4Movie2Title" xml:space="preserve">
+		<value>The Martian</value>
+	</data>
+	<data name="MovieSection4Movie2Seasons" xml:space="preserve">
+		<value>2015</value>
+	</data>
+	<data name="MovieSection4Movie2Director" xml:space="preserve">
+		<value>Ridley Scott</value>
+	</data>
+	<data name="MovieSection4Movie2Plot" xml:space="preserve">
+		<value>An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive.</value>
+	</data>
+	<data name="MovieSection4Movie2Cast" xml:space="preserve">
+		<value>Matt Damon,Jessica Chastain,Kristen Wiig</value>
+	</data>
+	<data name="MovieSection4Movie3Title" xml:space="preserve">
+		<value>Limitless</value>
+	</data>
+	<data name="MovieSection4Movie3Seasons" xml:space="preserve">
+		<value>2011</value>
+	</data>
+	<data name="MovieSection4Movie3Director" xml:space="preserve">
+		<value>Neil Burger</value>
+	</data>
+	<data name="MovieSection4Movie3Plot" xml:space="preserve">
+		<value>With the help of a mysterious pill that enables the user to access 100 percent of his brain abilities, a struggling writer becomes a financial wizard, but it also puts him in a new world with lots of dangers.</value>
+	</data>
+	<data name="MovieSection4Movie3Cast" xml:space="preserve">
+		<value>Bradley Cooper,Anna Friel,Abbie Cornish</value>
+	</data>
+	<data name="MovieSection4Movie4Title" xml:space="preserve">
+		<value>TRON: Legacy</value>
+	</data>
+	<data name="MovieSection4Movie4Seasons" xml:space="preserve">
+		<value>2010</value>
+	</data>
+	<data name="MovieSection4Movie4Director" xml:space="preserve">
+		<value>Joseph Kosinski</value>
+	</data>
+	<data name="MovieSection4Movie4Plot" xml:space="preserve">
+		<value>The son of a virtual world designer goes looking for his father and ends up inside the digital world that his father designed. He meets his father's corrupted creation and a unique ally who was born inside the digital world.</value>
+	</data>
+	<data name="MovieSection4Movie4Cast" xml:space="preserve">
+		<value>Jeff Bridges,Garrett Hedlund,Olivia Wilde</value>
+	</data>
+	<data name="MovieSection4Movie5Title" xml:space="preserve">
+		<value>Gravity</value>
+	</data>
+	<data name="MovieSection4Movie5Seasons" xml:space="preserve">
+		<value>2013</value>
+	</data>
+	<data name="MovieSection4Movie5Director" xml:space="preserve">
+		<value>Alfonso Cuarón</value>
+	</data>
+	<data name="MovieSection4Movie5Plot" xml:space="preserve">
+		<value>A medical engineer and an astronaut work together to survive after an accident leaves them adrift in space.</value>
+	</data>
+	<data name="MovieSection4Movie5Cast" xml:space="preserve">
+		<value>Sandra Bullock,George Clooney,Ed Harris</value>
+	</data>
+	<data name="MovieSection4Movie6Title" xml:space="preserve">
+		<value>Oblivion</value>
+	</data>
+	<data name="MovieSection4Movie6Seasons" xml:space="preserve">
+		<value>2013</value>
+	</data>
+	<data name="MovieSection4Movie6Director" xml:space="preserve">
+		<value>Joseph Kosinski</value>
+	</data>
+	<data name="MovieSection4Movie6Plot" xml:space="preserve">
+		<value>A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself.</value>
+	</data>
+	<data name="MovieSection4Movie6Cast" xml:space="preserve">
+		<value>Tom Cruise,Morgan Freeman,Andrea Riseborough</value>
+	</data>
+	<data name="MovieSection4Movie7Title" xml:space="preserve">
+		<value>Ghost In The Shell</value>
+	</data>
+	<data name="MovieSection4Movie7Seasons" xml:space="preserve">
+		<value>2017</value>
+	</data>
+	<data name="MovieSection4Movie7Director" xml:space="preserve">
+		<value>Rupert Sanders</value>
+	</data>
+	<data name="MovieSection4Movie7Plot" xml:space="preserve">
+		<value>A cyborg policewoman attempts to bring down a nefarious computer hacker.</value>
+	</data>
+	<data name="MovieSection4Movie7Cast" xml:space="preserve">
+		<value>Jonathan Herman,Jamie Moss</value>
+	</data>
+	<data name="MovieSection4Movie8Title" xml:space="preserve">
+		<value>Elysium</value>
+	</data>
+	<data name="MovieSection4Movie8Seasons" xml:space="preserve">
+		<value>2013</value>
+	</data>
+	<data name="MovieSection4Movie8Director" xml:space="preserve">
+		<value>Neill Blomkamp</value>
+	</data>
+	<data name="MovieSection4Movie8Plot" xml:space="preserve">
+		<value>In the year 2154, the very wealthy live on a man-made space station while the rest of the population resides on a ruined Earth. A man takes on a mission that could bring equality to the polarized worlds.</value>
+	</data>
+	<data name="MovieSection4Movie8Cast" xml:space="preserve">
+		<value>Matt Damon,Jodie Foster,Sharlto Copley</value>
+	</data>
+	<data name="MovieSection4Movie9Title" xml:space="preserve">
+		<value>Terminator Genisys</value>
+	</data>
+	<data name="MovieSection4Movie9Seasons" xml:space="preserve">
+		<value>2015</value>
+	</data>
+	<data name="MovieSection4Movie9Director" xml:space="preserve">
+		<value>Alan Taylor</value>
+	</data>
+	<data name="MovieSection4Movie9Plot" xml:space="preserve">
+		<value>When John Connor, leader of the human resistance, sends Sgt. Kyle Reese back to 1984 to protect Sarah Connor and safeguard the future, an unexpected turn of events creates a fractured timeline.</value>
+	</data>
+	<data name="MovieSection4Movie9Cast" xml:space="preserve">
+		<value>Arnold Schwarzenegger,Jason Clarke,Emilia Clarke</value>
+	</data>
+	<data name="MovieSection4Movie10Title" xml:space="preserve">
+		<value>Looper</value>
+	</data>
+	<data name="MovieSection4Movie10Seasons" xml:space="preserve">
+		<value>2012</value>
+	</data>
+	<data name="MovieSection4Movie10Director" xml:space="preserve">
+		<value>Rian Johnson</value>
+	</data>
+	<data name="MovieSection4Movie10Plot" xml:space="preserve">
+		<value>In 2074, when the mob wants to get rid of someone, the target is sent into the past, where a hired gun awaits - someone like Joe - who one day learns the mob wants to 'close the loop' by sending back Joe's future self for assassination.</value>
+	</data>
+	<data name="MovieSection4Movie10Cast" xml:space="preserve">
+		<value>Joseph Gordon-Levitt,Bruce Willis,Emily Blunt</value>
+	</data>
+	<data name="MovieSection5Title" xml:space="preserve">
+		<value>Marvel Universe Titles</value>
+	</data>	
+	<data name="MovieSection5Movie1Title" xml:space="preserve">
+		<value>X-Men Origins: Wolverine</value>
+	</data>
+	<data name="MovieSection5Movie1Seasons" xml:space="preserve">
+		<value>2009</value>
+	</data>
+	<data name="MovieSection5Movie1Director" xml:space="preserve">
+		<value>Gavin Hood</value>
+	</data>
+	<data name="MovieSection5Movie1Plot" xml:space="preserve">
+		<value>A look at Wolverine's early life, in particular his time with the government squad Team X and the impact it will have on his later years.</value>
+	</data>
+	<data name="MovieSection5Movie1Cast" xml:space="preserve">
+		<value>Hugh Jackman,Liev Schreiber,Ryan Reynolds</value>
+	</data>
+	<data name="MovieSection5Movie2Title" xml:space="preserve">
+		<value>Iron Man</value>
+	</data>
+	<data name="MovieSection5Movie2Seasons" xml:space="preserve">
+		<value>2008</value>
+	</data>
+	<data name="MovieSection5Movie2Director" xml:space="preserve">
+		<value>Jon Favreau</value>
+	</data>
+	<data name="MovieSection5Movie2Plot" xml:space="preserve">
+		<value>After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.</value>
+	</data>
+	<data name="MovieSection5Movie2Cast" xml:space="preserve">
+		<value>Robert Downey Jr.,Gwyneth Paltrow,Terrence Howard</value>
+	</data>
+	<data name="MovieSection5Movie3Title" xml:space="preserve">
+		<value>Iron Man 2</value>
+	</data>
+	<data name="MovieSection5Movie3Seasons" xml:space="preserve">
+		<value>2010</value>
+	</data>
+	<data name="MovieSection5Movie3Director" xml:space="preserve">
+		<value>Jon Favreau</value>
+	</data>
+	<data name="MovieSection5Movie3Plot" xml:space="preserve">
+		<value>With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy.</value>
+	</data>
+	<data name="MovieSection5Movie3Cast" xml:space="preserve">
+		<value>Robert Downey Jr.,Mickey Rourke,Gwyneth Paltrow</value>
+	</data>
+	<data name="MovieSection5Movie4Title" xml:space="preserve">
+		<value>Iron Man 3</value>
+	</data>
+	<data name="MovieSection5Movie4Seasons" xml:space="preserve">
+		<value>2013</value>
+	</data>
+	<data name="MovieSection5Movie4Director" xml:space="preserve">
+		<value>Shane Black</value>
+	</data>
+	<data name="MovieSection5Movie4Plot" xml:space="preserve">
+		<value>When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.</value>
+	</data>
+	<data name="MovieSection5Movie4Cast" xml:space="preserve">
+		<value>Robert Downey Jr.,Guy Pearce,Gwyneth Paltrow</value>
+	</data>
+	<data name="MovieSection5Movie5Title" xml:space="preserve">
+		<value>Fantastic 4</value>
+	</data>
+	<data name="MovieSection5Movie5Seasons" xml:space="preserve">
+		<value>2015</value>
+	</data>
+	<data name="MovieSection5Movie5Director" xml:space="preserve">
+		<value>Josh Trank</value>
+	</data>
+	<data name="MovieSection5Movie5Plot" xml:space="preserve">
+		<value>Four young outsiders teleport to an alternate and dangerous universe which alters their physical form in shocking ways. The four must learn to harness their new abilities and work together to save Earth from a former friend turned enemy.</value>
+	</data>
+	<data name="MovieSection5Movie5Cast" xml:space="preserve">
+		<value>Miles Teller,Kate Mara,Michael B. Jordan</value>
+	</data>
+	<data name="MovieSection5Movie6Title" xml:space="preserve">
+		<value>Hulk</value>
+	</data>
+	<data name="MovieSection5Movie6Seasons" xml:space="preserve">
+		<value>2003</value>
+	</data>
+	<data name="MovieSection5Movie6Director" xml:space="preserve">
+		<value>Ang Lee</value>
+	</data>
+	<data name="MovieSection5Movie6Plot" xml:space="preserve">
+		<value>Bruce Banner, a genetics researcher with a tragic past, suffers an accident that causes him to transform into a raging green monster when he gets angry.</value>
+	</data>
+	<data name="MovieSection5Movie6Cast" xml:space="preserve">
+		<value>Eric Bana,Jennifer Connelly,Sam Elliott</value>
+	</data>
+	<data name="MovieSection5Movie7Title" xml:space="preserve">
+		<value>The Incredible Hulk</value>
+	</data>
+	<data name="MovieSection5Movie7Seasons" xml:space="preserve">
+		<value>2008</value>
+	</data>
+	<data name="MovieSection5Movie7Director" xml:space="preserve">
+		<value>Louis Leterrier</value>
+	</data>
+	<data name="MovieSection5Movie7Plot" xml:space="preserve">
+		<value>Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he emerges whenever he loses his temper. However, Banner then must fight a soldier who unleashes himself as a threat stronger than he.</value>
+	</data>
+	<data name="MovieSection5Movie7Cast" xml:space="preserve">
+		<value>Edward Norton,Liv Tyler,Tim Roth</value>
+	</data>
+	<data name="DasboardCard1Title" xml:space="preserve">
+		<value>Top fishing secrets revealed</value>
+	</data>
+	<data name="DasboardCard1Body" xml:space="preserve">
+		<value>In connection with this appellative of 'Whalebone whales,' it is of great leap of yer happiness leadership colors. This is how we design a great article sample.</value>
+	</data>
+	<data name="DasboardCard1Section" xml:space="preserve">
+		<value>NATURE</value>
+	</data>
+	<data name="DasboardCard1Author" xml:space="preserve">
+		<value>Margaret Whites</value>
+	</data>
+	<data name="DasboardCard2Title" xml:space="preserve">
+		<value>Chasing mavericks</value>
+	</data>
+	<data name="DasboardCard2Body" xml:space="preserve">
+		<value>In connection with this appellative of 'Whalebone whales,' it is of great leap of yer happiness leadership colors. This is how we design a great article sample.</value>
+	</data>
+	<data name="DasboardCard2Section" xml:space="preserve">
+		<value>SPORTS</value>
+	</data>
+	<data name="DasboardCard2Author" xml:space="preserve">
+		<value>Skyler Harrisson</value>
+	</data>
+	<data name="DasboardCard3Title" xml:space="preserve">
+		<value>Another one bites the dust</value>
+	</data>
+	<data name="DasboardCard3Body" xml:space="preserve">
+		<value>In connection with this appellative of 'Whalebone whales,' it is of great leap of yer happiness leadership colors. This is how we design a great article sample.</value>
+	</data>
+	<data name="DasboardCard3Section" xml:space="preserve">
+		<value>HEALTH</value>
+	</data>
+	<data name="DasboardCard3Author" xml:space="preserve">
+		<value>Irma Leites</value>
+	</data>
+	<data name="DasboardCard4Title" xml:space="preserve">
+		<value>United by faith </value>
+	</data>
+	<data name="DasboardCard4Body" xml:space="preserve">
+		<value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et aliquet nunc. Sed ultricies sed augue sit amet maximus. In vel tellus sed ipsum volutpat venenatis et sit amet diam. Suspendisse feugiat mollis nibh, in facilisis diam convallis sit amet. Maecenas lectus turpis, rhoncus et est at, lacinia placerat urna. Praesent malesuada consectetur justo, scelerisque fermentum enim lobortis ullamcorper. Duis commodo sit amet ligula vitae luctus. Nulla commodo ipsum a lorem efficitur luctus.</value>
+	</data>
+	<data name="DasboardCard4Section" xml:space="preserve">
+		<value>ACTUALITY</value>
+	</data>
+	<data name="DasboardCard4Author" xml:space="preserve">
+		<value>UXDIVERS</value>
+	</data>
+	<data name="DasboardCard5Title" xml:space="preserve">
+		<value>The road to you</value>
+	</data>
+	<data name="DasboardCard5Body" xml:space="preserve">
+		<value>In connection with this appellative of 'Whalebone whales,' it is of great leap of yer happiness leadership colors. This is how we design a great article sample.</value>
+	</data>
+	<data name="DasboardCard5Section" xml:space="preserve">
+		<value>DISCIPLINE</value>
+	</data>
+	<data name="DasboardCard5Author" xml:space="preserve">
+		<value>Pat Davies</value>
+	</data>
+	<data name="DasboardCard6Title" xml:space="preserve">
+		<value>Nature and its influence on design</value>
+	</data>
+	<data name="DasboardCard6Body" xml:space="preserve">
+		<value>In connection with this appellative of 'Whalebone whales,' it is of great leap of yer happiness leadership colors. This is how we design a great article sample.</value>
+	</data>
+	<data name="DasboardCard6Section" xml:space="preserve">
+		<value>FREE TIME</value>
+	</data>
+	<data name="DasboardCard6Author" xml:space="preserve">
+		<value>Regina Joplin</value>
+	</data>
+	<data name="DasboardCard7Title" xml:space="preserve">
+		<value>Another one bites the dust</value>
+	</data>
+	<data name="DasboardCard7Body" xml:space="preserve">
+		<value>In connection with this appellative of 'Whalebone whales,' it is of great leap of yer happiness leadership colors. This is how we design a great article sample.</value>
+	</data>
+	<data name="DasboardCard7Section" xml:space="preserve">
+		<value>SELF-ESTEEM</value>
+	</data>
+	<data name="DasboardCard7Author" xml:space="preserve">
+		<value>Dimitar Taradasov</value>
+	</data>
+	<data name="DasboardCard8Title" xml:space="preserve">
+		<value>A retrospective on Jazz evolution</value>
+	</data>
+	<data name="DasboardCard8Body" xml:space="preserve">
+		<value>In connection with this appellative of 'Whalebone whales,' it is of great leap of yer happiness leadership colors. This is how we design a great article sample.</value>
+	</data>
+	<data name="DasboardCard8Section" xml:space="preserve">
+		<value>CULTURE</value>
+	</data>
+	<data name="DasboardCard8Author" xml:space="preserve">
+		<value>Thelonious Davies</value>
+	</data>
+	<data name="DasboardCard9Title" xml:space="preserve">
+		<value>Blowing in the wind</value>
+	</data>
+	<data name="DasboardCard9Body" xml:space="preserve">
+		<value>In connection with this appellative of 'Whalebone whales,' it is of great leap of yer happiness leadership colors. This is how we design a great article sample.</value>
+	</data>
+	<data name="DasboardCard9Section" xml:space="preserve">
+		<value>MUSIC</value>
+	</data>
+	<data name="DasboardCard9Author" xml:space="preserve">
+		<value>Cire Notpalc</value>
+	</data>
+
+	<!-- DashboardMutipleTilesViewModel -->
+	<data name="DashboardMultipleTileItem1Title" xml:space="preserve">
+		<value>Social</value>
+	</data>
+	<data name="DashboardMultipleTileItem2Title" xml:space="preserve">
+		<value>Contacts</value>
+	</data>
+	<data name="DashboardMultipleTileItem3Title" xml:space="preserve">
+		<value>Grial UI Kit</value>
+	</data>
+	<data name="DashboardMultipleTileItem4Title" xml:space="preserve">
+		<value>My Photos</value>
+	</data>
+	<data name="DashboardMultipleTileItem5Title" xml:space="preserve">
+		<value>Music</value>
+	</data>
+	<data name="DashboardMultipleTileItem6Title" xml:space="preserve">
+		<value>Offers</value>
+	</data>
+	<data name="DashboardMultipleTileItem7Title" xml:space="preserve">
+		<value>Twitter</value>
+	</data>
+	<data name="DashboardMultipleTileItem7Body" xml:space="preserve">
+		<value>@Grialuikit did it again!</value>
+	</data>
+	<data name="DashboardMultipleTileItem8Title" xml:space="preserve">
+		<value>World News</value>
+	</data>
+	<data name="DashboardMultipleTileItem9Title" xml:space="preserve">
+		<value>Facebook</value>
+	</data>
+	<data name="DashboardMultipleTileItem9Body" xml:space="preserve">
+		<value>GrialKit #AWESOMENESS</value>
+	</data>
+	<data name="DashboardMultipleTileItem10Title" xml:space="preserve">
+		<value>Instagram</value>
+	</data>
+	<data name="DashboardMultipleTileItem10Body" xml:space="preserve">
+		<value>Grial 2.0 preview, sweet!</value>
+	</data>
+	<data name="DashboardMultipleTileItem11Title" xml:space="preserve">
+		<value>Events</value>
+	</data>
+	<data name="DashboardMultipleTileItem12Title" xml:space="preserve">
+		<value>Whatsapp</value>
+	</data>
+	<data name="DashboardMultipleTileItem12Body" xml:space="preserve">
+		<value>Check Grial 2.0!!!</value>
+	</data>
+	<data name="DashboardMultipleTileItem13Title" xml:space="preserve">
+		<value>Linkedin</value>
+	</data>
+	<data name="DashboardMultipleTileItem13Body" xml:space="preserve">
+		<value>Xamarin Forms IS Grial</value>
+	</data>
+	<data name="DashboardMultipleTileItem14Title" xml:space="preserve">
+		<value>Games</value>
+	</data>
+</root>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>RoboScout</AssemblyName>
+    <RootNamespace>RoboScout</RootNamespace>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <ReleaseVersion>2.0</ReleaseVersion>
+    <Configurations>Debug;Release;Gorilla</Configurations>
+  </PropertyGroup>
+  <ItemGroup></ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie" Version="2.4.0" NoWarn="NU1701" />
+    <PackageReference Include="UXDivers.Effects" Version="0.6.3" />
+    <PackageReference Include="Xamarin.FFImageLoading" Version="2.4.3.840" />
+    <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.3.840" />
+    <PackageReference Include="Xamarin.FFImageLoading.Transformations" Version="2.4.3.840" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Xamarin.Forms" Version="3.1.0.583944" />
+    <PackageReference Include="UXDivers.Artina.Shared.Base" Version="2.7.1" />
+    <PackageReference Include="UXDivers.Artina.Shared" Version="2.7.1" />
+    <PackageReference Include="UXDivers.Artina.Controls.Tab" Version="2.7.1" />
+    <PackageReference Include="UXDivers.Artina.Controls.Repeater" Version="2.7.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Ecommerce\ProductsGridPage.xaml.cs">
+      <DependentUpon>ProductsGridPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Social\ProfilePage.xaml.cs">
+      <DependentUpon>ProfilePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Social\SocialPage.xaml.cs">
+      <DependentUpon>SocialPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Messages\MessagesListPage.xaml.cs">
+      <DependentUpon>MessagesListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Settings\SettingsPage.xaml.cs">
+      <DependentUpon>SettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Theme\ThemePage.xaml.cs">
+      <DependentUpon>ThemePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Ecommerce\ProductItemViewPage.xaml.cs">
+      <DependentUpon>ProductItemViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Ecommerce\ProductsCarouselPage.xaml.cs">
+      <DependentUpon>ProductsCarouselPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Navigation\RootPage.xaml.cs">
+      <DependentUpon>RootPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Navigation\WelcomePage.xaml.cs">
+      <DependentUpon>WelcomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Common\CustomNavBar.xaml.cs">
+      <DependentUpon>CustomNavBar.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Navigation\MainMenuPage.xaml.cs">
+      <DependentUpon>MainMenuPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Common\BrandBlock.xaml.cs">
+      <DependentUpon>BrandBlock.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Navigation\SamplesListFromCategoryPage.xaml.cs">
+      <DependentUpon>SamplesListFromCategoryPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Navigation\Templates\CategoriesListItemTemplate.xaml.cs">
+      <DependentUpon>CategoriesListItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Messages\Templates\MessageItemTemplate.xaml.cs">
+      <DependentUpon>MessageItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Social\Templates\FriendItemTemplate.xaml.cs">
+      <DependentUpon>FriendItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Social\Templates\SocialHeaderTemplate.xaml.cs">
+      <DependentUpon>SocialHeaderTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Social\SocialVariantPage.xaml.cs">
+      <DependentUpon>SocialVariantPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Common\Badge.xaml.cs">
+      <DependentUpon>Badge.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Articles\ArticlesListPage.xaml.cs">
+      <DependentUpon>ArticlesListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Articles\ArticlesListVariantPage.xaml.cs">
+      <DependentUpon>ArticlesListVariantPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Articles\Templates\ArticleItemTemplate.xaml.cs">
+      <DependentUpon>ArticleItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Articles\Templates\ArticleVariantItemTemplate.xaml.cs">
+      <DependentUpon>ArticleVariantItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Articles\Templates\CommentItemTemplate.xaml.cs">
+      <DependentUpon>CommentItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Dashboards\DashboardPage.xaml.cs">
+      <DependentUpon>DashboardPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Dashboards\DashboardFlatPage.xaml.cs">
+      <DependentUpon>DashboardFlatPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Dashboards\DashboardWithImagesPage.xaml.cs">
+      <DependentUpon>DashboardWithImagesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Articles\ArticleViewPage.xaml.cs">
+      <DependentUpon>ArticleViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Theme\CustomRenderersPage.xaml.cs">
+      <DependentUpon>CustomRenderersPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Navigation\Templates\MainMenuItemTemplate.xaml.cs">
+      <DependentUpon>MainMenuItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Navigation\Templates\MainMenuGroupHeaderTemplate.xaml.cs">
+      <DependentUpon>MainMenuGroupHeaderTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Social\SocialGalleryImagePreviewPage.xaml.cs">
+      <DependentUpon>SocialGalleryImagePreviewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Social\Templates\SocialGalleryImage.xaml.cs">
+      <DependentUpon>SocialGalleryImage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Navigation\CategoriesListWithImagesPage.xaml.cs">
+      <DependentUpon>CategoriesListWithImagesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Navigation\Templates\CategoriesListWithImagesItemTemplate.xaml.cs">
+      <DependentUpon>CategoriesListWithImagesItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Logins\LoginPage.xaml.cs">
+      <DependentUpon>LoginPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Logins\SignUpPage.xaml.cs">
+      <DependentUpon>SignUpPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Logins\PasswordRecoveryPage.xaml.cs">
+      <DependentUpon>PasswordRecoveryPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Navigation\CategoriesListWithIconsPage.xaml.cs">
+      <DependentUpon>CategoriesListWithIconsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Navigation\Templates\CategoriesListWithIconsItemTemplate.xaml.cs">
+      <DependentUpon>CategoriesListWithIconsItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Navigation\CustomNavBarPage.xaml.cs">
+      <DependentUpon>CustomNavBarPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Navigation\Templates\SamplesListFromCategoryItemTemplate.xaml.cs">
+      <DependentUpon>SamplesListFromCategoryItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Theme\CommonViewsPage.xaml.cs">
+      <DependentUpon>CommonViewsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Theme\WebViewPage.xaml.cs">
+      <DependentUpon>WebViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Ecommerce\ProductsGridVariantPage.xaml.cs">
+      <DependentUpon>ProductsGridVariantPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Articles\ArticlesFeedPage.xaml.cs">
+      <DependentUpon>ArticlesFeedPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Articles\Templates\ArticleFeedItemTemplate.xaml.cs">
+      <DependentUpon>ArticleFeedItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Messages\ChatMessagesListPage.xaml.cs">
+      <DependentUpon>ChatMessagesListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Messages\Templates\ChatLeftMessageItemTemplate.xaml.cs">
+      <DependentUpon>ChatLeftMessageItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Messages\Templates\ChatRightMessageItemTemplate.xaml.cs">
+      <DependentUpon>ChatRightMessageItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Dashboards\Templates\DashboardItemTemplate.xaml.cs">
+      <DependentUpon>DashboardItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Ecommerce\ProductImageFullScreenPage.xaml.cs">
+      <DependentUpon>ProductImageFullScreenPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Navigation\CategoriesListFlatPage.xaml.cs">
+      <DependentUpon>CategoriesListFlatPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Walkthroughs\WalkthroughPage.xaml.cs">
+      <DependentUpon>WalkthroughPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Walkthroughs\WalkthroughVariantPage.xaml.cs">
+      <DependentUpon>WalkthroughVariantPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Walkthroughs\Templates\WalkthroughStepItemTemplate.xaml.cs">
+      <DependentUpon>WalkthroughStepItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Walkthroughs\Templates\WalkthroughVariantStepItemTemplate.xaml.cs">
+      <DependentUpon>WalkthroughVariantStepItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Ecommerce\Templates\ProductGridItemTemplate.xaml.cs">
+      <DependentUpon>ProductGridItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Theme\TabsPage.xaml.cs">
+      <DependentUpon>TabsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Social\Templates\TimelineItemTemplate.xaml.cs">
+      <DependentUpon>TimelineItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Social\TimelinePage.xaml.cs">
+      <DependentUpon>TimelinePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Dashboards\DashboardMultipleScrollPage.xaml.cs">
+      <DependentUpon>DashboardMultipleScrollPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Dashboards\DashboardScrollablePage.xaml.cs">
+      <DependentUpon>DashboardScrollablePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Settings\CustomSettingsPage.xaml.cs">
+      <DependentUpon>CustomSettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Articles\ArticlesClassicViewPage.xaml.cs">
+      <DependentUpon>ArticlesClassicViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Articles\Templates\ArticleClassicViewItemTemplate.xaml.cs">
+      <DependentUpon>ArticleClassicViewItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Common\CustomActivityIndicator.xaml.cs">
+      <DependentUpon>CustomActivityIndicator.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Theme\CustomActivityIndicatorPage.xaml.cs">
+      <DependentUpon>CustomActivityIndicatorPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Dashboards\Templates\DashboardCardItemTemplate.xaml.cs">
+      <DependentUpon>DashboardCardItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Dashboards\DashboardCardsPage.xaml.cs">
+      <DependentUpon>DashboardCardsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Navigation\NotificationsPage.xaml.cs">
+      <DependentUpon>NotificationsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Navigation\Templates\NotificationsListItemTemplate.xaml.cs">
+      <DependentUpon>NotificationsListItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Articles\FrontPageNewsPage.xaml.cs">
+      <DependentUpon>FrontPageNewsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Articles\Templates\FrontPageNewsItemTemplate.xaml.cs">
+      <DependentUpon>FrontPageNewsItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Dashboards\DashboardMultipleTilesPage.xaml.cs">
+      <DependentUpon>DashboardMultipleTilesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Walkthroughs\Templates\WalkthroughFlatStepItemTemplate.xaml.cs">
+      <DependentUpon>WalkthroughFlatStepItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Walkthroughs\WalkthroughFlatPage.xaml.cs">
+      <DependentUpon>WalkthroughFlatPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Ecommerce\ProductsCatalogPage.xaml.cs">
+      <DependentUpon>ProductsCatalogPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Ecommerce\Templates\ProductsCatalogItemTemplate.xaml.cs">
+      <DependentUpon>ProductsCatalogItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Messages\RecentChatListPage.xaml.cs">
+      <DependentUpon>RecentChatListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Messages\Templates\RecentChatItemTemplate.xaml.cs">
+      <DependentUpon>RecentChatItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Navigation\EmptyStatePage.xaml.cs">
+      <DependentUpon>EmptyStatePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Logins\SimpleLoginPage.xaml.cs">
+      <DependentUpon>SimpleLoginPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Logins\SimpleSignUpPage.xaml.cs">
+      <DependentUpon>SimpleSignUpPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Dashboards\Templates\DashboardMultipleScrollMainItemTemplate.xaml.cs">
+      <DependentUpon>DashboardMultipleScrollMainItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Dashboards\MovieSelectionPage.xaml.cs">
+      <DependentUpon>MovieSelectionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Articles\Templates\FrontPageHeaderItemTemplate.xaml.cs">
+      <DependentUpon>FrontPageHeaderItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Theme\ResponsiveHelpersPage.xaml.cs">
+      <DependentUpon>ResponsiveHelpersPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Social\DocumentTimelinePage.xaml.cs">
+      <DependentUpon>DocumentTimelinePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Social\Templates\DocumentTimelineLeftItemTemplate.xaml.cs">
+      <DependentUpon>DocumentTimelineLeftItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Social\Templates\DocumentTimelineRightItemTemplate.xaml.cs">
+      <DependentUpon>DocumentTimelineRightItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Theme\GenericAboutPage.xaml.cs">
+      <DependentUpon>GenericAboutPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Ecommerce\ProductOrder.xaml.cs">
+      <DependentUpon>ProductOrder.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Dashboards\Templates\DashboardMultipleScrollItemTemplate.xaml.cs">
+      <DependentUpon>DashboardMultipleScrollItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Dashboards\Templates\DashboardMultipleScrollSectionTemplate.xaml.cs">
+      <DependentUpon>DashboardMultipleScrollSectionTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Common\Rating.xaml.cs">
+      <DependentUpon>Rating.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Common\RoundedLabel.xaml.cs">
+      <DependentUpon>RoundedLabel.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Messages\ChatTimelinePage.xaml.cs">
+      <DependentUpon>ChatTimelinePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Messages\Templates\ChatTimelineIncomingItemTemplate.xaml.cs">
+      <DependentUpon>ChatTimelineIncomingItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Messages\Templates\ChatTimelineOutgoingItemTemplate.xaml.cs">
+      <DependentUpon>ChatTimelineOutgoingItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Theme\IconsPage.xaml.cs">
+      <DependentUpon>IconsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Dashboards\Templates\DashboardVariantItemTemplate.xaml.cs">
+      <DependentUpon>DashboardVariantItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Dashboards\Templates\DashboardAppNotificationItemTemplate.xaml.cs">
+      <DependentUpon>DashboardAppNotificationItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Theme\AnimationsPage.xaml.cs">
+      <DependentUpon>AnimationsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Themes\MyAppTheme.xaml.cs">
+      <DependentUpon>MyAppTheme.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Themes\GrialDarkTheme.xaml.cs">
+      <DependentUpon>GrialDarkTheme.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Themes\GrialLightTheme.xaml.cs">
+      <DependentUpon>GrialLightTheme.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Theme\TabControlSamplePage.xaml.cs">
+      <DependentUpon>TabControlSamplePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Themes\GrialEnterpriseTheme.xaml.cs">
+      <DependentUpon>GrialEnterpriseTheme.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Navigation\Templates\CardsListItemTemplate.xaml.cs">
+      <DependentUpon>CardsListItemTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Navigation\CardsListPage.xaml.cs">
+      <DependentUpon>CardsListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Settings\GrialDemoSettings.xaml.cs">
+      <DependentUpon>GrialDemoSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Ecommerce\ProductItemFullScreenPage.xaml.cs">
+      <DependentUpon>ProductItemFullScreenPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Resx\AppResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Resx\DataResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataResources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Condition=" '$(EnableDefaultEmbeddedResourceItems)' == 'true' " Update="Resx\AppResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Condition=" '$(EnableDefaultEmbeddedResourceItems)' == 'true' " Update="Resx\DataResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DataResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

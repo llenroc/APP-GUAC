@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:tab="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared.Tab" xmlns:converter="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared.Base" xmlns:effects="clr-namespace:UXDivers.Effects;assembly=UXDivers.Effects" xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations" xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared" xmlns:local="clr-namespace:RoboScout;assembly=RoboScout"
+	x:Class="RoboScout.TabControliOSSamplePage"
+	Title="{ artina:Translate PageTitleTabControl }"
+	x:Name="Root">
+	
+	<ContentPage.Resources>
+		<ResourceDictionary
+			MergedWith="local:TabControliOSResources" />
+	</ContentPage.Resources>
+	
+	<ContentPage.Content>
+		
+		 <tab:TabControl
+			TabStripPlacement="Bottom"
+			StyleClass="iOSTabControlStyle"
+			TabContentBackgroundColor="{ DynamicResource BasePageColor }">
+			
+			<!--FRIENDS TAB-->
+			<tab:TabItem
+				BadgeText="7"
+				IconText="{ x:Static local:GrialShapesFont.InsertPhoto }"
+				Text="{ artina:Translate TabItemTextFriends }">
+			
+				<!-- FRIENDS LIST -->
+				<ListView
+					ItemsSource="{ Binding Social.Friends }"
+					RowHeight="66"
+					SeparatorColor="{ DynamicResource ListViewSeparatorColor }">
+			
+					<ListView.ItemTemplate>
+						<DataTemplate>
+							<ViewCell>
+								<local:FriendItemTemplate />
+							</ViewCell>
+						</DataTemplate>
+					</ListView.ItemTemplate>
+				</ListView>
+				
+			</tab:TabItem>
+			
+			<!--CHAT TIMELINE TAB-->
+			<tab:TabItem
+				IconText="{ x:Static local:GrialShapesFont.QueryBuilder }"
+				Text="{ artina:Translate PageTitleChatTimeLine }">
+			
+				<ListView
+					ItemsSource="{ Binding Chat.Messages }"
+					SeparatorVisibility="Default"
+					SeparatorColor="{ DynamicResource ListViewSeparatorColor }"
+					HasUnevenRows="false"
+					CachingStrategy="RecycleElement"
+					BackgroundColor="{ DynamicResource BasePageColor }">
+					
+					<ListView.RowHeight>
+						<OnIdiom
+							x:TypeArguments="x:Int32"
+							Phone="80"
+							Tablet="100" />
+					</ListView.RowHeight>
+					
+					<ListView.ItemTemplate>
+						<DataTemplate>
+							<ViewCell>
+								<local:RecentChatItemTemplate />
+							</ViewCell>
+						</DataTemplate>
+					</ListView.ItemTemplate>
+			
+				</ListView>
+				
+			</tab:TabItem>
+		
+		</tab:TabControl>
+		
+	</ContentPage.Content>
+	
+</ContentPage>
+
+
+

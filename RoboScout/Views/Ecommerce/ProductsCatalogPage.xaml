@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="RoboScout.ProductsCatalogPage" xmlns:local="clr-namespace:RoboScout;assembly=RoboScout" xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared"
+	Title="{ artina:Translate PageTitleProductsCatalog }"
+	BackgroundColor="{ DynamicResource MainWrapperBackgroundColor }">
+
+	<ContentPage.Content>
+		<ListView
+			CachingStrategy="RecycleElement"
+			SeparatorVisibility="None"
+			ItemsSource="{ Binding Products }"
+			HasUnevenRows="true"
+			ItemSelected="OnItemSelected">
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<ViewCell>
+						<local:ProductsCatalogItemTemplate />
+					</ViewCell>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
+	</ContentPage.Content>
+</ContentPage>

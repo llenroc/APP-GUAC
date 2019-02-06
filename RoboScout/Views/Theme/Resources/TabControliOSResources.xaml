@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared" xmlns:tab="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared.Tab" xmlns:converter="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared.Base" xmlns:effects="clr-namespace:UXDivers.Effects;assembly=UXDivers.Effects" xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations" xmlns:local="clr-namespace:RoboScout;assembly=RoboScout"
+	x:Class="RoboScout.TabControliOSResources">
+
+	<OnPlatform
+		x:Key="ShowAnimateTransition"
+		x:TypeArguments="x:Boolean">
+		<OnPlatform.iOS>true</OnPlatform.iOS>
+		<OnPlatform.Android>true</OnPlatform.Android>
+	</OnPlatform>
+	
+	<!-- IOS COLORS -->
+	<Color
+		x:Key="iOSTabStripBackgroundColor">#E6F9F9F9</Color>
+	<Color
+		x:Key="iOSTabContentBackgroundColor">#F5F5F5</Color>
+
+	<Color
+		x:Key="iOSTabItemDefaultStateBackgroundColor">Transparent</Color>
+	<Color
+		x:Key="iOSTabItemDefaultStateTextColor">#979797</Color>
+
+	<Color
+		x:Key="iOSTabItemActiveStateBackgroundColor">#007AFF</Color>
+	<Color
+		x:Key="iOSTabItemActiveStateTextColor">#007AFF</Color>
+	
+	<Color
+		x:Key="iOSTabItemBadgeBackgroundColor">Red</Color>
+	<Color
+		x:Key="iOSTabItemBadgeTextColor">White</Color>
+
+	<!-- IOS MEASURES -->
+	<x:Double
+		x:Key="iOSTabItemTextFontSize">10</x:Double>
+	<x:Double
+		x:Key="iOSTabItemIconWidthRequest">25</x:Double>
+	<x:Double
+		x:Key="iOSTabItemIconHeightRequest">25</x:Double>
+
+	<x:Double
+		x:Key="iOSTabItemIconTextFontSize">25</x:Double>
+
+	<x:Double
+		x:Key="iOSTabIndicatorHeightRequest">0</x:Double>
+
+	<x:Double
+		x:Key="iOSTabStripIconAndTextHeightRequest">52</x:Double>
+	<x:Double
+		x:Key="iOSTabStripIconsHeightRequest">52</x:Double>
+	
+	<!-- PUT YOUR OWN ICONS FONT FAMILY BELOW -->
+	<OnPlatform
+		x:Key="iOSTabControlIconsFontFamily"
+		x:TypeArguments="x:String"
+		Android="grialshapes.ttf#grialshapes"
+		iOS="grialshapes" />
+	
+	<!-- IOS STYLES -->
+	<Style
+		x:Key="iOSTabStripBaseStyle"
+		TargetType="Grid">
+		<Setter
+			Property="BackgroundColor"
+			Value="{ StaticResource iOSTabStripBackgroundColor }" />
+		<Setter
+			Property="HeightRequest"
+			Value="{ StaticResource iOSTabStripIconsHeightRequest }" />
+	</Style>
+
+	<Style
+		x:Key="iOSTabStripStyle"
+		TargetType="Grid"
+		BaseResourceKey="iOSTabStripBaseStyle">
+		<Setter
+			Property="HeightRequest"
+			Value="{ StaticResource iOSTabStripIconsHeightRequest }" />
+		<Setter
+			Property="Padding"
+			Value="0" />
+		<Setter
+			Property="Margin"
+			Value="0" />
+	</Style>
+
+
+	<Style
+		x:Key="iOSTabContentStyle"
+		TargetType="Grid">
+		<Setter
+			Property="HeightRequest"
+			Value="320" />
+		<Setter
+			Property="BackgroundColor"
+			Value="{ StaticResource iOSTabContentBackgroundColor }" />
+	</Style>
+
+	<Style
+		x:Key="iOSTabStripIconAndTextStyle"
+		TargetType="Grid"
+		BaseResourceKey="iOSTabStripBaseStyle">
+		<Setter
+			Property="HeightRequest"
+			Value="{ StaticResource iOSTabStripIconAndTextHeightRequest }" />
+	</Style>
+
+	<Style
+		x:Key="iOSTabStripIconsStyle"
+		TargetType="Grid"
+		BaseResourceKey="iOSTabStripBaseStyle">
+		<Setter
+			Property="HeightRequest"
+			Value="{ StaticResource iOSTabStripIconsHeightRequest }" />
+	</Style>
+
+
+	<Style
+		x:Key="iOSTabItemStyle"
+		TargetType="Grid">
+		<Setter
+			Property="BackgroundColor"
+			Value="{ StaticResource iOSTabItemDefaultStateBackgroundColor }" />
+		<Setter
+			Property="Margin"
+			Value="0" />
+	</Style>
+
+	<Style
+		x:Key="iOSTabItemTextBaseStyle"
+		TargetType="Label">
+		<Setter
+			Property="VerticalOptions"
+			Value="FillAndExpand" />
+		<Setter
+			Property="HorizontalTextAlignment"
+			Value="Center" />
+		<Setter
+			Property="VerticalTextAlignment"
+			Value="Center" />
+		<Setter
+			Property="FontSize"
+			Value="{ StaticResource iOSTabItemTextFontSize }" />
+	</Style>
+
+	<Style
+		x:Key="iOSTabItemTextDefaultStateStyle"
+		TargetType="Label"
+		BaseResourceKey="iOSTabItemTextBaseStyle">
+		<Setter
+			Property="TextColor"
+			Value="{ StaticResource iOSTabItemDefaultStateTextColor }" />
+		<Setter
+			Property="FontSize"
+			Value="{ StaticResource iOSTabItemTextFontSize }" />
+	</Style>
+
+	<Style
+		x:Key="iOSTabItemTextActiveStateStyle"
+		TargetType="Label"
+		BaseResourceKey="iOSTabItemTextBaseStyle">
+		<Setter
+			Property="TextColor"
+			Value="{ StaticResource iOSTabItemActiveStateTextColor }" />
+		<Setter
+			Property="FontSize"
+			Value="{ StaticResource iOSTabItemTextFontSize }" />
+	</Style>
+
+	<!-- FONT ICONS -->
+	<Style
+		x:Key="iOSTabItemIconTextBaseStyle"
+		BaseResourceKey="iOSTabItemTextBaseStyle"
+		TargetType="Label">
+		<Setter
+			Property="FontFamily"
+			Value="{ StaticResource iOSTabControlIconsFontFamily }" />
+		<Setter
+			Property="FontSize"
+			Value="{ StaticResource iOSTabItemIconTextFontSize }" />
+		<Setter
+			Property="VerticalOptions"
+			Value="Center" />
+		<Setter
+			Property="HorizontalOptions"
+			Value="Center" />
+		<Setter
+			Property="WidthRequest"
+			Value="{ StaticResource iOSTabItemIconWidthRequest }" />
+		<Setter
+			Property="HeightRequest"
+			Value="{ StaticResource iOSTabItemIconHeightRequest }" />
+	</Style>
+
+	<Style
+		x:Key="iOSTabItemIconTextDefaultStateStyle"
+		TargetType="Label"
+		BaseResourceKey="iOSTabItemIconTextBaseStyle">
+		<Setter
+			Property="TextColor"
+			Value="{ StaticResource iOSTabItemDefaultStateTextColor }" />
+	</Style>
+
+	<Style
+		x:Key="iOSTabItemIconTextActiveStateStyle"
+		TargetType="Label"
+		BaseResourceKey="iOSTabItemIconTextBaseStyle">
+		<Setter
+			Property="TextColor"
+			Value="{ StaticResource iOSTabItemActiveStateTextColor }" />
+	</Style>
+
+
+	<Style
+		x:Key="iOSTabItemIconImageBaseStyle"
+		TargetType="Image">
+		<Setter
+			Property="VerticalOptions"
+			Value="Center" />
+		<Setter
+			Property="HorizontalOptions"
+			Value="Center" />
+		<Setter
+			Property="WidthRequest"
+			Value="{ StaticResource iOSTabItemIconWidthRequest }" />
+		<Setter
+			Property="HeightRequest"
+			Value="{ StaticResource iOSTabItemIconHeightRequest }" />
+	</Style>
+
+	<Style
+		x:Key="iOSTabItemIconImageDefaultStateStyle"
+		BaseResourceKey="iOSTabItemIconImageBaseStyle"
+		TargetType="Image">
+		<Setter
+			Property="Opacity"
+			Value="1" />
+	</Style>
+
+	<Style
+		x:Key="iOSTabItemIconImageActiveStateStyle"
+		BaseResourceKey="iOSTabItemIconImageBaseStyle"
+		TargetType="Image">
+		<Setter
+			Property="Opacity"
+			Value="1" />
+	</Style>
+
+	<!-- CONVERTERS -->
+	
+<converter:IsNotNullConverter
+		x:Key="IsNotNullConverter" />
+	
+	<converter:NegateBooleanConverter
+		x:Key="iOSInvertBoolConverter" />
+	
+	<converter:BooleanToObjectConverter
+		x:Key="iOSTabItemTextStateStyleConverter"
+		x:TypeArguments="Style"
+		FalseValue="{ StaticResource iOSTabItemTextDefaultStateStyle }"
+		TrueValue="{ StaticResource iOSTabItemTextActiveStateStyle }" />
+
+	<converter:BooleanToObjectConverter
+		x:Key="iOSTabItemTextStateNoIconStyleConverter"
+		x:TypeArguments="Style"
+		FalseValue="{ StaticResource iOSTabItemIconTextDefaultStateStyle }"
+		TrueValue="{ StaticResource iOSTabItemIconTextActiveStateStyle }" />
+		
+	<converter:BooleanToObjectConverter
+		x:Key="iOSTabItemIconTextStateStyleConverter"
+		x:TypeArguments="Style"
+		FalseValue="{ StaticResource iOSTabItemIconTextDefaultStateStyle }"
+		TrueValue="{ StaticResource iOSTabItemIconTextActiveStateStyle }" />
+	
+	
+	<!-- iOS TEMPLATES -->
+	<DataTemplate
+		x:Key="iOSTabItemTemplate">
+		<Grid
+			Grid.Row="0"
+			Grid.Column="0"
+			Padding="0"
+			Margin="0"
+			ColumnSpacing="0"
+			RowSpacing="0"
+			Style="{ StaticResource iOSTabItemStyle }">
+
+			<Grid.RowDefinitions>
+				<RowDefinition
+					Height="1" />
+				<RowDefinition
+					Height="*" />
+				<RowDefinition
+					Height="11" />
+			</Grid.RowDefinitions>
+				
+			<BoxView
+				Grid.Row="0"
+				HeightRequest=".5"
+				BackgroundColor="#B3B3B3"
+				Margin="0" />
+				
+			<!--IMAGE ICONS-->
+			<Grid
+				Grid.Row="1"
+				VerticalOptions="Center"
+				IsVisible="{ Binding Icon, Converter={ StaticResource IsNotNullConverter } }">
+				
+				<Image
+					Margin="0,0,0,0"
+					IsVisible="{ Binding IsSelected, Converter={ StaticResource iOSInvertBoolConverter } }"
+					Style="{ StaticResource iOSTabItemIconImageDefaultStateStyle }"
+					Source="{ Binding Icon }" />
+	
+				<Image
+					Margin="0,0,0,0"
+					IsVisible="{ Binding IsSelected }"
+					Style="{ StaticResource iOSTabItemIconImageActiveStateStyle }"
+					Source="{ Binding IconSelected }" />
+			</Grid>
+			
+			<!--FONT ICONS-->
+			<Label
+				VerticalOptions="Center"
+				Grid.Row="1"
+				Grid.Column="0"
+				IsVisible="{ Binding IconText, Converter={ StaticResource IsNotNullConverter } }"
+				Text="{ Binding IconText }"
+				Style="{ Binding IsSelected, Converter={ StaticResource iOSTabItemIconTextStateStyleConverter }, Mode=OneWay }" />
+			
+			<!--TEXT-->
+			<Label
+				Grid.Row="2"
+				Grid.Column="0"
+				VerticalOptions="End"
+				Margin="0,0,0,0"
+				TranslationY="-2"
+				IsVisible="{ Binding HasText }"
+				Style="{ Binding IsSelected, Converter={ StaticResource iOSTabItemTextStateStyleConverter }, Mode=OneWay }"
+				Text="{ Binding Text }" />
+			
+			<!--BADGE-->
+			<local:Badge
+				Scale=".5"
+				Grid.Row="1"
+				Grid.Column="0"
+				BadgeText="{ Binding BadgeText }"
+				BadgeBackgroundColor="{ DynamicResource iOSTabItemBadgeBackgroundColor }"
+				BadgeTextColor="{ DynamicResource iOSTabItemBadgeTextColor }"
+				HorizontalOptions="Center"
+				VerticalOptions="Start"
+				TranslationX="10"
+				TranslationY="-3" />
+			
+		</Grid>
+					
+	</DataTemplate>
+
+
+
+	<Style
+		Class="iOSTabControlStyle"
+		TargetType="tab:TabControl">
+		<Style.Triggers>
+			<Trigger
+				TargetType="tab:TabControl"
+				Property="SingleDescriptionTabs"
+				Value="False">
+				<Setter
+					Property="TabStripHeightRequest"
+					Value="49" />
+			</Trigger>
+			<Trigger
+				TargetType="tab:TabControl"
+				Property="SingleDescriptionTabs"
+				Value="True">
+				<Setter
+					Property="TabStripHeightRequest"
+					Value="49" />
+			</Trigger>
+		</Style.Triggers>
+
+		<Setter
+			Property="TabStripBackgroundColor"
+			Value="{ StaticResource iOSTabStripBackgroundColor }" />
+		<Setter
+			Property="TabStripItemBackgroundColor"
+			Value="{ StaticResource iOSTabItemDefaultStateBackgroundColor }" />
+		<Setter
+			Property="TabContentBackgroundColor"
+			Value="{ StaticResource iOSTabContentBackgroundColor }" />
+		<Setter
+			Property="TabTemplate"
+			Value="{ StaticResource iOSTabItemTemplate }" />
+		<Setter
+			Property="TabContentHeightRequest"
+			Value="320" />
+
+		<Setter
+			Property="AnimateTransition"
+			Value="{ StaticResource ShowAnimateTransition }" />
+	</Style>
+	
+</ResourceDictionary>
